@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Zidane Firdaus\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\e4f9c4d3f7a5edd848a1a0faae979010\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,550,614,677",
+                        "endLines": "2,3,4,5,6,7,8,9,10,14",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "110,180,251,323,381,439,545,609,672,854"
+                    },
+                    "to": {
+                        "startLines": "13,14,15,16,17,18,19,20,22,23",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "760,820,890,961,1033,1091,1149,1255,1358,1421",
+                        "endLines": "13,14,15,16,17,18,19,20,22,26",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "815,885,956,1028,1086,1144,1250,1314,1416,1598"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zidane Firdaus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ddafa0fabb8e4f5dda401612bf76ffd8\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "90,159,228,298,372,448,507,578",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "154,223,293,367,443,502,573,641"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zidane Firdaus\\.gradle\\caches\\transforms-1\\files-1.1\\creator-ui-1.0.aar\\10fc7cdf8cd7b730e344d747aaf917dc\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,90,148,204",
+                        "endColumns": "34,57,55,38",
+                        "endOffsets": "85,143,199,238"
+                    },
+                    "to": {
+                        "startLines": "2,11,12,21",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,646,704,1319",
+                        "endColumns": "34,57,55,38",
+                        "endOffsets": "85,699,755,1353"
+                    }
+                }
+            ]
+        }
+    ]
+}

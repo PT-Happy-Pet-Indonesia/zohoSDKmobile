@@ -1,0 +1,1553 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:2:1-71:12
+MERGED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:1:1-157:12
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\4c6926105ab9e7c5bc9956bab285591b\transformed\multidex-1.0.3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.zoho.creator:pagelibrary:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\21695948e6dc6b92b7cd6a1ec87f8a2a\transformed\pagelibrary-1.0\AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\b52624c7c6034ad5ba1bd15b99cf3622\transformed\design-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d20fcacfdb442399e4c27d6743cbd636\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\95a077a83a0ccbca27792df09e21544c\transformed\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android:flexbox:1.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\e6b22ed390fc2518c68639ab3d37df66\transformed\flexbox-1.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.prolificinteractive:material-calendarview:1.4.3] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\617ddaf5ce929badeb0495f15b7a4c23\transformed\material-calendarview-1.4.3\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\308e5002f65f843eea71f2b0baff2323\transformed\play-services-location-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\29b6a0adcab4da218fb713e792fb05cb\transformed\firebase-messaging-15.0.2\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3812c3bc63d2b4be468121512df5bbec\transformed\firebase-core-15.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\94faf48a98cdfce675dd976e699ecb86\transformed\firebase-iid-interop-15.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d2339f5ec7ec57c980e56bd17bffaf82\transformed\play-services-base-15.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3ebc75ff43f476330fd55df2948b1fba\transformed\play-services-places-placereport-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\9c41fdfe5a397ca65d2ffba1e0a267d6\transformed\play-services-tasks-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\68c29abfa6d2cf0174cda480ca6dad7d\transformed\firebase-measurement-connector-15.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\96ccd14ff60d53d152cda65c7ef5371a\transformed\play-services-stats-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\78fc74ee832e209fd118842ccdb7d014\transformed\play-services-ads-identifier-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\80f1249c116570416655f289f502f170\transformed\play-services-basement-15.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\597fe138245a64a5ac19c5489f6ccb9c\transformed\zxing-1.9.8\AndroidManifest.xml:2:1-13:12
+MERGED from [me.dm7.barcodescanner:core:1.9.8] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\69b46543b6b2fa988951af42510d8a87\transformed\core-1.9.8\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\38f5ef9a981cb9e0c5c7a70fe0aaa626\transformed\support-v4-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\f7dc259bfcdb6cf7f62ca5f3928cbcdc\transformed\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.databinding:adapters:3.1.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c9a45c5e31852a44ad6f11a31dfb8987\transformed\adapters-3.1.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.1.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\1b565a502fcca6e0b9bb75da7e0ca37f\transformed\library-3.1.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\e3128e01f0b88a6f43f01661cd37b66a\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\339fcfcc71056d1b6c31ec61f07806e7\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0fb0a45b3aa35e6e06a478dfac014abe\transformed\customtabs-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\ea086e6f0f28390753e906bb2f7d70f8\transformed\support-core-ui-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\db1f146099527926247ea97b9215eb4d\transformed\support-core-utils-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\452c227bba61464d29c84cd1137fde8e\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\dc8ce043412a62de9b487f1b20fa6efc\transformed\transition-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\84d98e2365328bb54097c583e810421b\transformed\cardview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:17:1-42:12
+MERGED from [com.android.support:percent:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\1b664ab262c77c6a7570a0258fd32c68\transformed\percent-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\b4e7f4dc31d96dce939a2a06775095e8\transformed\support-media-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\6bbd5605b9ca54c0ca42f5612137a7cf\transformed\support-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\e8d86f0b86b18587434915ee06e7aca4\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\9c3dd9e40c30ac37abef96104978a64f\transformed\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\cec8b78607a2ec1495aa4f9d3e61a249\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\224a7b19e9710bcc3e813b158efa37dd\transformed\volley-1.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\76c224971971cdf57a2faa84c4b52c32\transformed\installreferrer-1.0\AndroidManifest.xml:2:1-13:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\ab237f6e683bace20c277c2588b3041f\transformed\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\ec66b26326680fd09f839b3ba15b1925\transformed\material-ripple-1.0.2\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\f94165e78398a8ebb2599c5a33090beb\transformed\play-services-measurement-base-15.0.2\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:2:1-71:12
+	package
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:4:5-51
+		INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+		INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:2:1-71:12
+		INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:2:1-71:12
+		INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:3:3-64
+MERGED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:3:3-64
+MERGED from [com.zoho.creator:pagelibrary:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\21695948e6dc6b92b7cd6a1ec87f8a2a\transformed\pagelibrary-1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.zoho.creator:pagelibrary:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\21695948e6dc6b92b7cd6a1ec87f8a2a\transformed\pagelibrary-1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:7:5-69:19
+MERGED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:34:3-156:17
+MERGED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:34:3-156:17
+MERGED from [com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:13:5-22:19
+MERGED from [com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:13:5-22:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\95a077a83a0ccbca27792df09e21544c\transformed\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\95a077a83a0ccbca27792df09e21544c\transformed\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.prolificinteractive:material-calendarview:1.4.3] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\617ddaf5ce929badeb0495f15b7a4c23\transformed\material-calendarview-1.4.3\AndroidManifest.xml:12:5-20
+MERGED from [com.prolificinteractive:material-calendarview:1.4.3] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\617ddaf5ce929badeb0495f15b7a4c23\transformed\material-calendarview-1.4.3\AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\308e5002f65f843eea71f2b0baff2323\transformed\play-services-location-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\308e5002f65f843eea71f2b0baff2323\transformed\play-services-location-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:30:5-20
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\29b6a0adcab4da218fb713e792fb05cb\transformed\firebase-messaging-15.0.2\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\29b6a0adcab4da218fb713e792fb05cb\transformed\firebase-messaging-15.0.2\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3812c3bc63d2b4be468121512df5bbec\transformed\firebase-core-15.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3812c3bc63d2b4be468121512df5bbec\transformed\firebase-core-15.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\94faf48a98cdfce675dd976e699ecb86\transformed\firebase-iid-interop-15.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\94faf48a98cdfce675dd976e699ecb86\transformed\firebase-iid-interop-15.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d2339f5ec7ec57c980e56bd17bffaf82\transformed\play-services-base-15.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d2339f5ec7ec57c980e56bd17bffaf82\transformed\play-services-base-15.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3ebc75ff43f476330fd55df2948b1fba\transformed\play-services-places-placereport-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3ebc75ff43f476330fd55df2948b1fba\transformed\play-services-places-placereport-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\9c41fdfe5a397ca65d2ffba1e0a267d6\transformed\play-services-tasks-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\9c41fdfe5a397ca65d2ffba1e0a267d6\transformed\play-services-tasks-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\68c29abfa6d2cf0174cda480ca6dad7d\transformed\firebase-measurement-connector-15.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\68c29abfa6d2cf0174cda480ca6dad7d\transformed\firebase-measurement-connector-15.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\96ccd14ff60d53d152cda65c7ef5371a\transformed\play-services-stats-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\96ccd14ff60d53d152cda65c7ef5371a\transformed\play-services-stats-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\78fc74ee832e209fd118842ccdb7d014\transformed\play-services-ads-identifier-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\78fc74ee832e209fd118842ccdb7d014\transformed\play-services-ads-identifier-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\80f1249c116570416655f289f502f170\transformed\play-services-basement-15.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\80f1249c116570416655f289f502f170\transformed\play-services-basement-15.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\597fe138245a64a5ac19c5489f6ccb9c\transformed\zxing-1.9.8\AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\597fe138245a64a5ac19c5489f6ccb9c\transformed\zxing-1.9.8\AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.8] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\69b46543b6b2fa988951af42510d8a87\transformed\core-1.9.8\AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.8] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\69b46543b6b2fa988951af42510d8a87\transformed\core-1.9.8\AndroidManifest.xml:11:5-20
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:26:5-40:19
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:26:5-40:19
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\224a7b19e9710bcc3e813b158efa37dd\transformed\volley-1.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\224a7b19e9710bcc3e813b158efa37dd\transformed\volley-1.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\76c224971971cdf57a2faa84c4b52c32\transformed\installreferrer-1.0\AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\76c224971971cdf57a2faa84c4b52c32\transformed\installreferrer-1.0\AndroidManifest.xml:11:5-20
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\ec66b26326680fd09f839b3ba15b1925\transformed\material-ripple-1.0.2\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\ec66b26326680fd09f839b3ba15b1925\transformed\material-ripple-1.0.2\AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\f94165e78398a8ebb2599c5a33090beb\transformed\play-services-measurement-base-15.0.2\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\f94165e78398a8ebb2599c5a33090beb\transformed\play-services-measurement-base-15.0.2\AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:10:9-41
+		REJECTED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:34:167-207
+		REJECTED from [com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:15:9-41
+	xmlns:tools
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:34:325-371
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:34:98-131
+	android:allowBackup
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:34:70-97
+		REJECTED from [com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:14:9-36
+	android:icon
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:9:9-43
+		REJECTED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:34:132-166
+	android:theme
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:12:9-65
+		REJECTED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:34:208-247
+	tools:replace
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:13:9-78
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:8:9-62
+		REJECTED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:34:16-69
+activity#com.example.zohocreatorsdk.sampleapp.MenuzActivity
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:14:9-17:52
+	android:screenOrientation
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:17:13-49
+	android:configChanges
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:16:13-74
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:15:13-42
+activity#com.example.zohocreatorsdk.sampleapp.AddContactActivity
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:18:9-21:52
+	android:screenOrientation
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:21:13-49
+	android:configChanges
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:20:13-74
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:19:13-47
+activity#com.example.zohocreatorsdk.sampleapp.ContactActivity
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:22:9-25:52
+	android:screenOrientation
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:25:13-49
+	android:configChanges
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:24:13-74
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:23:13-44
+activity#com.example.zohocreatorsdk.sampleapp.TaskRecord
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:26:9-29:52
+	android:screenOrientation
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:29:13-49
+	android:configChanges
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:28:13-74
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:27:13-39
+activity#com.example.zohocreatorsdk.sampleapp.HomeActivity
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:30:9-33:52
+	android:screenOrientation
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:33:13-49
+	android:configChanges
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:32:13-74
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:31:13-41
+activity#com.example.zohocreatorsdk.sampleapp.ShuttleActivity
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:34:9-37:52
+	android:screenOrientation
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:37:13-49
+	android:configChanges
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:36:13-74
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:35:13-44
+activity#com.example.zohocreatorsdk.sampleapp.SuppliesActivity
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:38:9-41:52
+	android:screenOrientation
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:41:13-49
+	android:configChanges
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:40:13-74
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:39:13-45
+activity#com.example.zohocreatorsdk.sampleapp.CanteenActivity
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:42:9-45:52
+	android:screenOrientation
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:45:13-49
+	android:configChanges
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:44:13-74
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:43:13-44
+activity#com.example.zohocreatorsdk.sampleapp.ComplaintsActivity
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:46:9-49:52
+	android:screenOrientation
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:49:13-49
+	android:configChanges
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:48:13-74
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:47:13-47
+activity#com.example.zohocreatorsdk.sampleapp.LauncherActivity
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:50:9-59:20
+	android:screenOrientation
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:53:13-49
+	android:configChanges
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:52:13-74
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:51:13-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:54:13-58:29
+action#android.intent.action.MAIN
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:55:17-69
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:55:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:57:17-77
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:57:27-74
+activity#com.example.zohocreatorsdk.sampleapp.HandleRedirectActivity
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:60:9-68:20
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:60:19-57
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/redir_url_for_manifest
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:61:13-67:29
+action#android.intent.action.VIEW
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:62:17-69
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:62:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:63:17-76
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:63:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:64:17-78
+	android:name
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:64:27-75
+data
+ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:65:17-73
+	android:scheme
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:65:23-70
+uses-sdk
+INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+MERGED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:2:3-736
+MERGED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:2:3-736
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\4c6926105ab9e7c5bc9956bab285591b\transformed\multidex-1.0.3\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\4c6926105ab9e7c5bc9956bab285591b\transformed\multidex-1.0.3\AndroidManifest.xml:20:5-43
+MERGED from [com.zoho.creator:pagelibrary:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\21695948e6dc6b92b7cd6a1ec87f8a2a\transformed\pagelibrary-1.0\AndroidManifest.xml:17:5-19:41
+MERGED from [com.zoho.creator:pagelibrary:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\21695948e6dc6b92b7cd6a1ec87f8a2a\transformed\pagelibrary-1.0\AndroidManifest.xml:17:5-19:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\b52624c7c6034ad5ba1bd15b99cf3622\transformed\design-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\b52624c7c6034ad5ba1bd15b99cf3622\transformed\design-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:8:5-11:62
+MERGED from [com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:8:5-11:62
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d20fcacfdb442399e4c27d6743cbd636\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d20fcacfdb442399e4c27d6743cbd636\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\95a077a83a0ccbca27792df09e21544c\transformed\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\95a077a83a0ccbca27792df09e21544c\transformed\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android:flexbox:1.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\e6b22ed390fc2518c68639ab3d37df66\transformed\flexbox-1.0.0\AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android:flexbox:1.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\e6b22ed390fc2518c68639ab3d37df66\transformed\flexbox-1.0.0\AndroidManifest.xml:23:5-25:41
+MERGED from [com.prolificinteractive:material-calendarview:1.4.3] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\617ddaf5ce929badeb0495f15b7a4c23\transformed\material-calendarview-1.4.3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.prolificinteractive:material-calendarview:1.4.3] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\617ddaf5ce929badeb0495f15b7a4c23\transformed\material-calendarview-1.4.3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\308e5002f65f843eea71f2b0baff2323\transformed\play-services-location-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\308e5002f65f843eea71f2b0baff2323\transformed\play-services-location-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\29b6a0adcab4da218fb713e792fb05cb\transformed\firebase-messaging-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\29b6a0adcab4da218fb713e792fb05cb\transformed\firebase-messaging-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3812c3bc63d2b4be468121512df5bbec\transformed\firebase-core-15.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3812c3bc63d2b4be468121512df5bbec\transformed\firebase-core-15.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\94faf48a98cdfce675dd976e699ecb86\transformed\firebase-iid-interop-15.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\94faf48a98cdfce675dd976e699ecb86\transformed\firebase-iid-interop-15.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d2339f5ec7ec57c980e56bd17bffaf82\transformed\play-services-base-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d2339f5ec7ec57c980e56bd17bffaf82\transformed\play-services-base-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3ebc75ff43f476330fd55df2948b1fba\transformed\play-services-places-placereport-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3ebc75ff43f476330fd55df2948b1fba\transformed\play-services-places-placereport-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\9c41fdfe5a397ca65d2ffba1e0a267d6\transformed\play-services-tasks-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\9c41fdfe5a397ca65d2ffba1e0a267d6\transformed\play-services-tasks-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\68c29abfa6d2cf0174cda480ca6dad7d\transformed\firebase-measurement-connector-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\68c29abfa6d2cf0174cda480ca6dad7d\transformed\firebase-measurement-connector-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\96ccd14ff60d53d152cda65c7ef5371a\transformed\play-services-stats-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\96ccd14ff60d53d152cda65c7ef5371a\transformed\play-services-stats-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\78fc74ee832e209fd118842ccdb7d014\transformed\play-services-ads-identifier-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\78fc74ee832e209fd118842ccdb7d014\transformed\play-services-ads-identifier-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\80f1249c116570416655f289f502f170\transformed\play-services-basement-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\80f1249c116570416655f289f502f170\transformed\play-services-basement-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\597fe138245a64a5ac19c5489f6ccb9c\transformed\zxing-1.9.8\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\597fe138245a64a5ac19c5489f6ccb9c\transformed\zxing-1.9.8\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.8] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\69b46543b6b2fa988951af42510d8a87\transformed\core-1.9.8\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.8] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\69b46543b6b2fa988951af42510d8a87\transformed\core-1.9.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\38f5ef9a981cb9e0c5c7a70fe0aaa626\transformed\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\38f5ef9a981cb9e0c5c7a70fe0aaa626\transformed\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\f7dc259bfcdb6cf7f62ca5f3928cbcdc\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\f7dc259bfcdb6cf7f62ca5f3928cbcdc\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.databinding:adapters:3.1.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c9a45c5e31852a44ad6f11a31dfb8987\transformed\adapters-3.1.2\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.1.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c9a45c5e31852a44ad6f11a31dfb8987\transformed\adapters-3.1.2\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.1.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\1b565a502fcca6e0b9bb75da7e0ca37f\transformed\library-3.1.2\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.1.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\1b565a502fcca6e0b9bb75da7e0ca37f\transformed\library-3.1.2\AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\e3128e01f0b88a6f43f01661cd37b66a\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\e3128e01f0b88a6f43f01661cd37b66a\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\339fcfcc71056d1b6c31ec61f07806e7\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\339fcfcc71056d1b6c31ec61f07806e7\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0fb0a45b3aa35e6e06a478dfac014abe\transformed\customtabs-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0fb0a45b3aa35e6e06a478dfac014abe\transformed\customtabs-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\ea086e6f0f28390753e906bb2f7d70f8\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\ea086e6f0f28390753e906bb2f7d70f8\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\db1f146099527926247ea97b9215eb4d\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\db1f146099527926247ea97b9215eb4d\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\452c227bba61464d29c84cd1137fde8e\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\452c227bba61464d29c84cd1137fde8e\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\dc8ce043412a62de9b487f1b20fa6efc\transformed\transition-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\dc8ce043412a62de9b487f1b20fa6efc\transformed\transition-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\84d98e2365328bb54097c583e810421b\transformed\cardview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\84d98e2365328bb54097c583e810421b\transformed\cardview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:22:5-24:41
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:percent:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\1b664ab262c77c6a7570a0258fd32c68\transformed\percent-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\1b664ab262c77c6a7570a0258fd32c68\transformed\percent-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\b4e7f4dc31d96dce939a2a06775095e8\transformed\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\b4e7f4dc31d96dce939a2a06775095e8\transformed\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\6bbd5605b9ca54c0ca42f5612137a7cf\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\6bbd5605b9ca54c0ca42f5612137a7cf\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\e8d86f0b86b18587434915ee06e7aca4\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\e8d86f0b86b18587434915ee06e7aca4\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\9c3dd9e40c30ac37abef96104978a64f\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\9c3dd9e40c30ac37abef96104978a64f\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\cec8b78607a2ec1495aa4f9d3e61a249\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\cec8b78607a2ec1495aa4f9d3e61a249\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\224a7b19e9710bcc3e813b158efa37dd\transformed\volley-1.1.0\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\224a7b19e9710bcc3e813b158efa37dd\transformed\volley-1.1.0\AndroidManifest.xml:7:5-43
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\76c224971971cdf57a2faa84c4b52c32\transformed\installreferrer-1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\76c224971971cdf57a2faa84c4b52c32\transformed\installreferrer-1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\ab237f6e683bace20c277c2588b3041f\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\ab237f6e683bace20c277c2588b3041f\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\ec66b26326680fd09f839b3ba15b1925\transformed\material-ripple-1.0.2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\ec66b26326680fd09f839b3ba15b1925\transformed\material-ripple-1.0.2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\f94165e78398a8ebb2599c5a33090beb\transformed\play-services-measurement-base-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\f94165e78398a8ebb2599c5a33090beb\transformed\play-services-measurement-base-15.0.2\AndroidManifest.xml:20:5-44
+INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:2:70-687
+	xmlns:tools
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:2:688-734
+	android:targetSdkVersion
+		INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+		INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+		ADDED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+		INJECTED from C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:4:3-76
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:4:20-74
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:5:3-71
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:5:20-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:6:3-78
+MERGED from [com.zoho.creator:pagelibrary:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\21695948e6dc6b92b7cd6a1ec87f8a2a\transformed\pagelibrary-1.0\AndroidManifest.xml:22:5-81
+MERGED from [com.zoho.creator:pagelibrary:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\21695948e6dc6b92b7cd6a1ec87f8a2a\transformed\pagelibrary-1.0\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:6:20-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:7:3-77
+MERGED from [com.zoho.creator:pagelibrary:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\21695948e6dc6b92b7cd6a1ec87f8a2a\transformed\pagelibrary-1.0\AndroidManifest.xml:21:5-80
+MERGED from [com.zoho.creator:pagelibrary:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\21695948e6dc6b92b7cd6a1ec87f8a2a\transformed\pagelibrary-1.0\AndroidManifest.xml:21:5-80
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:7:20-75
+uses-permission#android.permission.permRead
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:8:3-64
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:8:20-62
+uses-permission#android.permission.VIBRATE
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:9:3-63
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:9:20-61
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:10:3-68
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:10:20-66
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:11:3-75
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:11:20-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:12:3-78
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:12:20-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:13:3-76
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:13:20-74
+uses-permission#android.permission.CAMERA
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:14:3-62
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:14:20-60
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:15:3-68
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:15:20-66
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:16:3-70
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:16:20-68
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:17:3-85
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:17:20-83
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:18:3-72
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:18:20-70
+uses-permission#android.permission.READ_CONTACTS
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:19:3-69
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:19:20-67
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:20:3-78
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:20:20-76
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:21:3-96
+	android:required
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:21:70-94
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:21:17-69
+uses-feature#android.permission.BLUETOOTH
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:22:3-87
+	android:required
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:22:61-85
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:22:17-60
+uses-feature#android.permission.BLUETOOTH_ADMIN
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:23:3-93
+	android:required
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:23:67-91
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:23:17-66
+uses-feature#android.hardware.Camera
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:24:3-82
+	android:required
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:24:56-80
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:24:17-55
+uses-feature#android.hardware.camera
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:25:3-150
+	tools:node
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:25:81-101
+	xmlns:tools
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:25:102-148
+	android:required
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:25:56-80
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:25:17-55
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:26:3-160
+	tools:node
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:26:91-111
+	xmlns:tools
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:26:112-158
+	android:required
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:26:66-90
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:26:17-65
+uses-feature#android.hardware.location.network
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:27:3-92
+	android:required
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:27:66-90
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:27:17-65
+uses-feature#android.hardware.wifi
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:28:3-148
+	tools:node
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:28:79-99
+	xmlns:tools
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:28:100-146
+	android:required
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:28:54-78
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:28:17-53
+uses-feature#android.hardware.location.gps
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:29:3-156
+	tools:node
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:29:87-107
+	xmlns:tools
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:29:108-154
+	android:required
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:29:62-86
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:29:17-61
+uses-feature#android.hardware.location
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:30:3-152
+	tools:node
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:30:83-103
+	xmlns:tools
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:30:104-150
+	android:required
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:30:58-82
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:30:17-57
+uses-feature#android.hardware.screen.portrait
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:31:3-91
+	android:required
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:31:65-89
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:31:17-64
+uses-feature#android.hardware.touchscreen
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:32:3-87
+	android:required
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:32:61-85
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:32:17-60
+uses-feature#android.hardware.microphone
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:33:3-86
+	android:required
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:33:60-84
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:33:17-59
+activity#com.zoho.creator.a.SplashScreen
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:35:5-261
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:35:134-174
+	android:windowSoftInputMode
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:35:218-259
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:35:62-133
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:35:175-217
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:35:15-61
+activity#com.zoho.creator.a.DialogActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:36:5-178
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:36:64-135
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:36:136-176
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:36:15-63
+activity#com.zoho.creator.a.DeleteAccessedComponents
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:37:5-187
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:37:74-145
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:37:146-185
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:37:15-73
+activity#com.zoho.creator.a.SignatureFieldActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:38:5-188
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:38:72-143
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:38:144-186
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:38:15-71
+activity#com.zoho.creator.a.ApplicationSettingsActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:39:5-199
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:39:77-148
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:39:149-197
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:39:15-76
+activity#com.zoho.creator.a.FormActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:40:5-184
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:40:62-133
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:40:134-182
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:40:15-61
+activity#com.zoho.creator.a.ListReportActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:41:5-251
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:41:140-156
+	android:windowSoftInputMode
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:41:206-249
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:41:68-139
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:41:157-205
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:41:15-67
+activity#com.zoho.creator.a.DetailViewListActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:42:5-185
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:42:72-143
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:42:144-183
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:42:15-71
+activity#com.zoho.creator.a.ApprovalSummaryActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:43:5-186
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:43:73-144
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:43:145-184
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:43:15-72
+activity#com.zoho.creator.a.PivotViewActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:44:5-189
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:44:67-138
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:44:139-187
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:44:15-66
+activity#com.zoho.creator.a.MultiSearchFeildSelect
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:45:5-185
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:45:72-143
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:45:144-183
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:45:15-71
+activity#com.zoho.creator.a.MultiSearchConditionSelect
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:46:5-189
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:46:76-147
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:46:148-187
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:46:15-75
+activity#com.zoho.creator.a.MultiSelectActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:47:5-185
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:47:69-140
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:47:141-183
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:47:15-68
+activity#com.zoho.creator.a.MultiSelectedActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:48:5-184
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:48:71-142
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:48:143-182
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:48:15-70
+activity#com.zoho.creator.a.DeleteMultipleChoiceActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:49:5-191
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:49:78-149
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:49:150-189
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:49:15-77
+activity#com.zoho.creator.a.SUBFormRecordListingActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:50:5-222
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:50:150-180
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:50:78-149
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:50:181-220
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:50:15-77
+activity#com.zoho.creator.a.BulkEditActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:51:5-179
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:51:66-137
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:51:138-177
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:51:15-65
+activity#com.zoho.creator.a.CalenderActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:52:5-256
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:52:138-170
+	android:windowSoftInputMode
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:52:211-254
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:52:66-137
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:52:171-210
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:52:15-65
+activity#com.zoho.creator.a.GBSUBFormActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:53:5-137
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:53:67-100
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:53:101-135
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:53:15-66
+activity#com.zoho.creator.a.CalendarRecordsAction
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:54:5-184
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:54:71-142
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:54:143-182
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:54:15-70
+activity#com.zoho.creator.a.HTMLViewActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:55:5-221
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:55:138-170
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:55:66-137
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:55:171-219
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:55:15-65
+activity#com.zoho.creator.a.LoadWebViewActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:56:5-182
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:56:69-140
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:56:141-180
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:56:15-68
+activity#com.zoho.creator.a.CustomFiltersActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:57:5-110
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:57:71-108
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:57:15-70
+activity#com.zoho.creator.a.ZohoCreatorLogin
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:58:5-179
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:58:66-137
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:58:138-177
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:58:15-65
+activity#com.zoho.creator.a.SingleSelectChoiceActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:59:5-192
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:59:76-147
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:59:148-190
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:59:15-75
+activity#com.zoho.creator.a.DeleteMultiSelectChoices
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:60:5-116
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:60:74-114
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:60:15-73
+activity#com.zoho.creator.a.ImageViewerForFileUploadActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:61:5-198
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:61:82-153
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:61:154-196
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:61:15-81
+activity#com.zoho.creator.a.OfflineFormActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:62:5-176
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:62:69-134
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:62:135-174
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:62:15-68
+activity#com.zoho.creator.a.CustomPinActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:63:5-68
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:63:15-66
+service#com.zoho.creator.a.OfflineService
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:64:5-89
+	android:exported
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:64:63-87
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:64:14-62
+receiver#com.zoho.creator.a.NetworkChangeReceiver
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:65:5-69:16
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:65:15-70
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:66:7-68:23
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:67:9-70
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:67:17-68
+service#com.zoho.creator.a.KillNotificationsService
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:70:5-74
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:70:14-72
+service#com.zoho.creator.a.AppUpdateService
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:71:5-75:15
+	android:exported
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:71:65-89
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:71:14-64
+intent-filter#action:name:com.firebase.jobdispatcher.ACTION_EXECUTE
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:72:7-74:23
+action#com.firebase.jobdispatcher.ACTION_EXECUTE
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:73:9-75
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:73:17-73
+receiver#com.zoho.creator.a.AppUpdateReceiver
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:76:5-94
+	android:process
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:76:67-92
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:76:15-66
+activity#com.zoho.creator.a.AndroidDatabaseManager
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:77:5-73
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:77:15-71
+activity#com.zoho.creator.a.ComponentSelectForPushNotification
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:78:5-197
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:78:84-155
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:78:156-195
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:78:15-83
+activity#com.zoho.creator.a.PreviewActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:79:5-201
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:79:99-130
+	android:noHistory
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:79:131-156
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:79:65-98
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:79:157-199
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:79:15-64
+activity#com.zoho.creator.a.CameraActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:80:5-226
+	android:screenOrientation
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:80:129-165
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:80:98-128
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:80:64-97
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:80:166-224
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:80:15-63
+activity#com.zoho.creator.a.Upgrade_To_ProfessionalEdition
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:81:5-192
+	android:screenOrientation
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:81:114-150
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:81:80-113
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:81:151-190
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:81:15-79
+activity#com.zoho.creator.a.BaiduMapViewToSelectAddressActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:82:5-259
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:82:157-208
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:82:85-156
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:82:209-257
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:82:15-84
+activity#com.zoho.creator.a.SelectAddressInMapActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:83:5-251
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:83:148-200
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:83:76-147
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:83:201-249
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:83:15-75
+activity#com.zoho.creator.a.ZCMapViewSearchActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:84:5-163
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:84:73-112
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:84:113-161
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:84:15-72
+activity#com.zoho.creator.a.ZCMapViewRecentSearchHistoryActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:85:5-189
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:85:86-138
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:85:139-187
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:85:15-85
+activity#com.zoho.creator.a.MapViewActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:86:5-221
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:86:137-170
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:86:65-136
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:86:171-219
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:86:15-64
+activity#com.zoho.creator.a.MapViewLocationSearchActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:87:5-175
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:87:79-124
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:87:125-173
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:87:15-78
+activity#com.zoho.creator.a.ApplicationDashBoardActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:88:5-246
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:88:150-195
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:88:78-149
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:88:196-244
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:88:15-77
+activity#com.zoho.creator.a.ZohoCreatorDashBoardActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:89:5-280
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:89:150-178
+	android:windowSoftInputMode
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:89:236-278
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:89:78-149
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:89:179-235
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:89:15-77
+activity#com.zoho.creator.a.MarkFavoritesActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:90:5-273
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:90:143-171
+	android:windowSoftInputMode
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:90:229-271
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:90:71-142
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:90:172-228
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:90:15-70
+service#com.zoho.creator.a.StoreRecordsInDBService
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:91:5-98
+	android:exported
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:91:72-96
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:91:14-71
+service#com.zoho.creator.a.FileDownloadService
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:92:5-94
+	android:exported
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:92:68-92
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:92:14-67
+activity#com.zoho.creator.a.PageDisplayActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:93:5-191
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:93:69-140
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:93:141-189
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:93:15-68
+activity#com.zoho.creator.a.ImageViewerActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:94:5-191
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:94:69-140
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:94:141-189
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:94:15-68
+activity#com.zoho.creator.a.CustomerPortalSignUpActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:95:5-214
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:95:150-172
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:95:78-149
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:95:173-212
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:95:15-77
+activity#com.zoho.creator.a.DashboardOptionsActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:96:5-204
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:96:74-145
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:96:146-202
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:96:15-73
+activity#com.zoho.creator.a.ImageAnnotateActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:97:5-221
+	android:screenOrientation
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:97:143-179
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:97:71-142
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:97:180-219
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:97:15-70
+activity#com.zoho.creator.a.SummaryImagePreviewActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:98:5-150
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:98:77-148
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:98:15-76
+activity#com.zoho.creator.a.AudioRecordActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:99:5-169
+	android:screenOrientation
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:99:131-167
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:99:69-130
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:99:15-68
+receiver#com.zoho.creator.a.PhoneCallReceiver
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:100:5-104:16
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:100:15-66
+intent-filter#action:name:android.intent.action.PHONE_STATE
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:101:7-103:23
+action#android.intent.action.PHONE_STATE
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:102:9-67
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:102:17-65
+receiver#com.zoho.creator.a.NetworkChangeMonitoringReceiver
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:105:5-109:16
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:105:15-80
+activity#com.zoho.creator.a.BulkSubmitActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:110:5-210
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:110:134-168
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:110:68-133
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:110:169-208
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:110:15-67
+activity#com.zoho.creator.a.CountrySpinnerActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:111:5-230
+	android:windowSoftInputMode
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:111:177-228
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:111:72-133
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:111:134-176
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:111:15-71
+activity#com.zoho.creator.a.PhoneNumberSpinnerActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:112:5-234
+	android:windowSoftInputMode
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:112:181-232
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:112:76-137
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:112:138-180
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:112:15-75
+activity#com.zoho.creator.a.SearchActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:113:5-180
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:113:64-135
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:113:136-178
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:113:15-63
+activity#com.zoho.creator.a.FilterActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:114:5-180
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:114:64-135
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:114:136-178
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:114:15-63
+activity#com.zoho.creator.a.SearchFilterHistoryActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:115:5-193
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:115:77-148
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:115:149-191
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:115:15-76
+activity#com.zoho.creator.a.NewSearchFilterHistoryActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:116:5-196
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:116:80-151
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:116:152-194
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:116:15-79
+activity#com.zoho.creator.a.SearchFilterHistoryDetailActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:117:5-199
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:117:83-154
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:117:155-197
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:117:15-82
+activity#com.zoho.creator.a.SearchHistoryDetailActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:118:5-193
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:118:77-148
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:118:149-191
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:118:15-76
+activity#com.zoho.creator.a.CalendarGroupMonthListActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:119:5-81
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:119:15-79
+activity#com.zoho.creator.a.TranslationUserChoiceActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:120:5-152
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:120:79-150
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:120:15-78
+activity#com.zoho.creator.a.RecordListSortActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:121:5-73
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:121:15-71
+activity#com.zoho.creator.a.SearchConditionSelectActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:122:5-195
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:122:79-150
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:122:151-193
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:122:15-78
+activity#com.zoho.creator.a.ThemeSettingsActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:123:5-187
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:123:71-142
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:123:143-185
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:123:15-70
+activity#com.zoho.creator.a.ThemeSelectionActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:124:5-188
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:124:72-143
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:124:144-186
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:124:15-71
+activity#com.zoho.creator.a.HandleRedirectActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:125:5-73
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:125:15-71
+activity#com.zoho.creator.a.ReportSaveActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:126:5-228
+	android:windowSoftInputMode
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:126:183-226
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:126:68-139
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:126:140-182
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:126:15-67
+provider#android.support.v4.content.FileProvider
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:127:5-129:16
+	android:grantUriPermissions
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:127:143-177
+	android:authorities
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:127:70-117
+	android:exported
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:127:118-142
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:127:15-69
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:128:7-109
+	android:resource
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:128:69-107
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:128:18-68
+activity#com.zoho.creator.a.ChooseComponentForAppShortcutActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:130:5-289
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:130:159-187
+	android:windowSoftInputMode
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:130:245-287
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:130:87-158
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:130:188-244
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:130:15-86
+activity#com.zoho.creator.a.GalleryAppMoreInfoActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:131:5-278
+	android:label
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:131:148-176
+	android:windowSoftInputMode
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:131:234-276
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:131:76-147
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:131:177-233
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:131:15-75
+activity#com.zoho.creator.a.KanbanViewActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:132:5-234
+	android:windowSoftInputMode
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:132:189-232
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:132:68-139
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:132:140-188
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:132:15-67
+activity#com.zoho.creator.a.ApplyCriteriaInReportActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:133:5-195
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:133:79-150
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:133:151-193
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:133:15-78
+activity#com.zoho.creator.a.ApprovalTasksActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:134:5-144
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:134:71-142
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:134:15-70
+activity#com.zoho.creator.a.ShowLocationInMapActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:135:5-191
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:135:75-146
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:135:147-189
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:135:15-74
+activity#com.zoho.creator.a.BaiduMapViewPlotAddress
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:136:5-189
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:136:73-144
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:136:145-187
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:136:15-72
+service#com.zoho.creator.a.ZCreatorFirebaseMessagingService
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:137:5-141:15
+	android:exported
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:137:81-104
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:137:14-80
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:138:7-140:23
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:139:9-69
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:139:17-67
+service#com.zoho.creator.a.ZCreatorFirebaseInstanceIDService
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:142:5-146:15
+	android:exported
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:142:82-105
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:142:14-81
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:143:7-145:23
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:144:9-71
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:144:17-69
+meta-data#firebase_analytics_collection_enabled
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:147:5-92
+	android:value
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:147:69-90
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:147:16-68
+activity#com.zoho.creator.a.ZCScannerActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:148:5-111
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:148:67-109
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:148:15-66
+receiver#com.zoho.creator.a.InstallReferrerBroadcastReceiver
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:149:5-153:16
+	android:exported
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:149:82-105
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:149:15-81
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:150:7-152:23
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:151:9-70
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:151:17-68
+activity#com.zoho.creator.a.SettingsActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:154:5-182
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:154:66-137
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:154:138-180
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:154:15-65
+activity#com.zoho.creator.a.SDKLoginActivity
+ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:155:5-179
+	android:configChanges
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:155:66-137
+	android:theme
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:155:138-177
+	android:name
+		ADDED from [com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:155:15-65
+activity#com.zoho.accounts.externalframework.WebViewActivity
+ADDED from [com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:16:9-18:72
+	android:theme
+		ADDED from [com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:18:13-69
+	android:name
+		ADDED from [com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:17:13-79
+activity#com.zoho.accounts.externalframework.ChromeTabActivity
+ADDED from [com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:19:9-21:72
+	android:theme
+		ADDED from [com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:21:13-69
+	android:name
+		ADDED from [com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:20:13-81
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:28:9-32
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\29b6a0adcab4da218fb713e792fb05cb\transformed\firebase-messaging-15.0.2\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\29b6a0adcab4da218fb713e792fb05cb\transformed\firebase-messaging-15.0.2\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\29b6a0adcab4da218fb713e792fb05cb\transformed\firebase-messaging-15.0.2\AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:26:5-110
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\76c224971971cdf57a2faa84c4b52c32\transformed\installreferrer-1.0\AndroidManifest.xml:9:5-110
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\76c224971971cdf57a2faa84c4b52c32\transformed\installreferrer-1.0\AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:35:13-100
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\587fc67ceaed050d61321036d6e78eb3\transformed\firebase-analytics-impl-15.0.2\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:29:9-63
+permission#com.example.zohocreatorsdk.sampleapp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:32:22-76
+uses-permission#com.example.zohocreatorsdk.sampleapp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.zohocreatorsdk.sampleapp
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:48:27-58
+category#com.example.zohocreatorsdk.sampleapp
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:57:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d2339f5ec7ec57c980e56bd17bffaf82\transformed\play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d2339f5ec7ec57c980e56bd17bffaf82\transformed\play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d2339f5ec7ec57c980e56bd17bffaf82\transformed\play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d2339f5ec7ec57c980e56bd17bffaf82\transformed\play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\80f1249c116570416655f289f502f170\transformed\play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\80f1249c116570416655f289f502f170\transformed\play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\80f1249c116570416655f289f502f170\transformed\play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+service#com.firebase.jobdispatcher.GooglePlayReceiver
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:32:9-39:19
+	android:exported
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:35:13-93
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:33:13-73
+intent-filter#action:name:com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:36:13-38:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:37:17-87
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:37:25-84

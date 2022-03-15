@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Zidane Firdaus\\.gradle\\caches\\transforms-3\\c30a0f8309e6d8f629b67c283d548f0b\\transformed\\creator-ui-1.0\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,12,15,18",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,169,208,501,661,821",
+                        "endLines": "2,3,4,11,14,17,20",
+                        "endColumns": "57,55,38,12,12,12,12",
+                        "endOffsets": "108,164,203,496,656,816,931"
+                    }
+                }
+            ]
+        }
+    ]
+}

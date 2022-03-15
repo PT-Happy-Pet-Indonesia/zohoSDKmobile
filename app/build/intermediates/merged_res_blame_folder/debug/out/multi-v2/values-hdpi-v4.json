@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Zidane Firdaus\\.gradle\\caches\\transforms-3\\c30a0f8309e6d8f629b67c283d548f0b\\transformed\\creator-ui-1.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,113,169,216,267",
+                        "endColumns": "57,55,46,50,38",
+                        "endOffsets": "108,164,211,262,301"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zidane Firdaus\\.gradle\\caches\\transforms-3\\d20fcacfdb442399e4c27d6743cbd636\\transformed\\appcompat-v7-27.1.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "420",
+                        "endLines": "13",
+                        "endColumns": "13",
+                        "endOffsets": "692"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zidane Firdaus\\.gradle\\caches\\transforms-3\\69b46543b6b2fa988951af42510d8a87\\transformed\\core-1.9.8\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    },
+                    "to": {
+                        "startLines": "7,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "306,364",
+                        "endColumns": "57,55",
+                        "endOffsets": "359,415"
+                    }
+                }
+            ]
+        }
+    ]
+}

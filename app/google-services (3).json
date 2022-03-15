@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "960315194254",
+    "project_id": "happy-project-988c3",
+    "storage_bucket": "happy-project-988c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960315194254:android:0a0694177fbd36936982df",
+        "android_client_info": {
+          "package_name": "com.happypet.happyproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960315194254-oic8eumqpumhhossl49kg2mj6n8l7vu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjIDdKS8xgCBktyDdKMj63LaBh4hsWXsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960315194254-oic8eumqpumhhossl49kg2mj6n8l7vu8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "960315194254-e5rle1sanada4q8feauiop3j910v0af7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.happypet.happyapps",
+                "app_store_id": "123"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

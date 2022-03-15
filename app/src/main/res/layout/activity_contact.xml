@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/nav_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#00375D"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/back_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#489F28"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/nav_layout"
+        tools:layout_editor_absoluteX="1dp">
+
+        <TextView
+            android:id="@+id/Add_Contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Add Contact"
+            android:textColor="#070707"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/body_layout"
+        android:layout_width="409dp"
+        android:layout_height="577dp"
+        android:background="@drawable/rounded_corner_top_card"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/add_button"
+        tools:layout_editor_absoluteX="1dp"></LinearLayout>
+</android.support.constraint.ConstraintLayout>

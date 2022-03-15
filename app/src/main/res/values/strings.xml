@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <!--App Config Strings-->
+
+    <string name="c_id">1000.VGYJM23TRHD0A04I506BYXVFFVGZ5E</string>
+    <string name="c_secret">675b08038db843bf090fb74a026bb7f33f33e55b81</string>
+    <string name="redir_url">myappsdk://</string>
+    <string name="accounts_url">https://accounts.zoho.com</string>  <!--enter the accounts URL of your respective DC. For eg: EU users use https://accounts.zoho.eu-->
+    <string name="redir_url_for_manifest">myappsdk</string>
+
+    <string name="ui.label.appname" translatable="false">Utility</string>
+
+    <!---->
+
+    <string name="app_name">HPID CRM</string>
+
+    <string name="canteen">Canteen</string>
+    <string name="canteen.subtitle">Get today\'s menu</string>
+
+    <string name="shuttle">Shuttle</string>
+    <string name="shuttle.subtitle">Book your shuttle</string>
+    <string name="shuttle.nobookingsallowed">No bookings allowed</string>
+
+    <string name="complaints">Complaints</string>
+    <string name="complaints.subtitle">Raise a complaint on our services</string>
+    <string name="complaints.raiseacomplaint">Raise a complaint on particular services</string>
+
+    <string name="canteen.breakfast">Breakfast</string>
+    <string name="canteen.breakfast.timings">07:30 am - 10:45 am</string>
+    <string name="canteen.todays.special">TODAY\'S SPECIAL</string>
+    <string name="canteen.casseroles">CASSEROLES</string>
+    <string name="canteen.available">Available</string>
+    <string name="canteen.notavailable">Not Available</string>
+    <string name="canteen.cinnamon_rolls">Cinnamon Rolls</string>
+    <string name="canteen.thyme_frittata">Thyme Fritatta</string>
+    <string name="canteen.tomato_zucchini">Tomato-Zucchini</string>
+    <string name="canteen.nut_granola">Nut Granola</string>
+    <string name="canteen.cranberry_streusel">Cranberry Streusel</string>
+    <string name="canteen.sausage_polenta">Sausage Polenta</string>
+    <string name="canteen.multigrain_cakes">Multigrain Cakes</string>
+    <string name="canteen.savory_egg">Savory Egg</string>
+    <string name="canteen.sweet_potato">Sweet Potato</string>
+    <string name="canteen.blueberry_streusel">Blueberry Streusel</string>
+    <string name="canteen.challah_buns">Challah Buns</string>
+    <string name="canteen.farmers_casserole">Farmer\'s Casserole</string>
+    <string name="canteen.order_now">Order Now</string>
+    <string name="canteen.location">Tower GF</string>
+    <string name="canteen.my_orders">My Orders</string>
+
+    <string name="supplies">Supplies</string>
+    <string name="supplies.cupboard_key">Cupboard Key</string>
+    <string name="supplies.footrest">Footrest</string>
+    <string name="supplies.back_buddy">Back Buddy</string>
+    <string name="supplies.white_board">White board</string>
+    <string name="supplies.bean_bag">Bean Bag</string>
+    <string name="supplies.new_cupboard">New Cupboard</string>
+    <string name="supplies.name_board">Name Board</string>
+    <string name="supplies.laptop_stand">Laptop Stand</string>
+    <string name="supplies.chair">Chair</string>
+    <string name="supplies.place_change">Place Change</string>
+    <string name="supplies.next">Next</string>
+    <string name="supplies.receive">You\'ll receive below supplies shortly on %1$s</string>
+    <string name="supplies.order_placed">Order Placed Successfully</string>
+    <string name="shuttle.selectdroplocation">Select Drop location and timing to continue</string>
+    <string name="supplies.location_number">Seating Location</string>
+    <string name="supplies.enter_location">Enter your seating location</string>
+    <string name="supplies.pickthegoods">Pick the goods which you need</string>
+    <string name="supplies.subtitle">Get your preferred goods</string>
+
+    <string name="common.close">Close</string>
+    <string name="common.cancel">Cancel</string>
+    <string name="common.submit">Submit</string>
+    <string name="common.signout">Signout</string>
+    <string name="common.signout_message">Are you sure you want to Signout?</string>
+    <string name="common.signout_confirm">Signout</string>
+
+</resources>

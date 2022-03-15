@@ -1,0 +1,1271 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.zohocreatorsdk.sampleapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:4:3-76
+12-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:4:20-74
+13    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+13-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:5:3-71
+13-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:5:20-69
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:6:3-78
+14-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:6:20-76
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:7:3-77
+15-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:7:20-75
+16    <uses-permission android:name="android.permission.permRead" />
+16-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:8:3-64
+16-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:8:20-62
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:9:3-63
+17-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:9:20-61
+18    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+18-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:10:3-68
+18-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:10:20-66
+19    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+19-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:11:3-75
+19-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:11:20-73
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:12:3-78
+20-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:12:20-76
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:13:3-76
+21-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:13:20-74
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:14:3-62
+22-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:14:20-60
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:15:3-68
+23-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:15:20-66
+24    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+24-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:16:3-70
+24-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:16:20-68
+25    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+25-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:17:3-85
+25-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:17:20-83
+26    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+26-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:18:3-72
+26-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:18:20-70
+27    <uses-permission android:name="android.permission.READ_CONTACTS" />
+27-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:19:3-69
+27-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:19:20-67
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:20:3-78
+28-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:20:20-76
+29
+30    <uses-feature
+30-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:21:3-96
+31        android:name="android.hardware.sensor.accelerometer"
+31-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:21:17-69
+32        android:required="false" />
+32-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:21:70-94
+33    <uses-feature
+33-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:22:3-87
+34        android:name="android.permission.BLUETOOTH"
+34-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:22:17-60
+35        android:required="false" />
+35-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:22:61-85
+36    <uses-feature
+36-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:23:3-93
+37        android:name="android.permission.BLUETOOTH_ADMIN"
+37-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:23:17-66
+38        android:required="false" />
+38-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:23:67-91
+39    <uses-feature
+39-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:24:3-82
+40        android:name="android.hardware.Camera"
+40-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:24:17-55
+41        android:required="false" />
+41-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:24:56-80
+42    <uses-feature
+42-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:25:3-150
+43        android:name="android.hardware.camera"
+43-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:25:17-55
+44        android:required="false" />
+44-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:25:56-80
+45    <uses-feature
+45-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:26:3-160
+46        android:name="android.hardware.camera.autofocus"
+46-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:26:17-65
+47        android:required="false" />
+47-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:26:66-90
+48    <uses-feature
+48-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:27:3-92
+49        android:name="android.hardware.location.network"
+49-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:27:17-65
+50        android:required="false" />
+50-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:27:66-90
+51    <uses-feature
+51-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:28:3-148
+52        android:name="android.hardware.wifi"
+52-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:28:17-53
+53        android:required="false" />
+53-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:28:54-78
+54    <uses-feature
+54-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:29:3-156
+55        android:name="android.hardware.location.gps"
+55-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:29:17-61
+56        android:required="false" />
+56-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:29:62-86
+57    <uses-feature
+57-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:30:3-152
+58        android:name="android.hardware.location"
+58-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:30:17-57
+59        android:required="false" />
+59-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:30:58-82
+60    <uses-feature
+60-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:31:3-91
+61        android:name="android.hardware.screen.portrait"
+61-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:31:17-64
+62        android:required="false" />
+62-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:31:65-89
+63    <uses-feature
+63-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:32:3-87
+64        android:name="android.hardware.touchscreen"
+64-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:32:17-60
+65        android:required="false" />
+65-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:32:61-85
+66    <uses-feature
+66-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:33:3-86
+67        android:name="android.hardware.microphone"
+67-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:33:17-59
+68        android:required="false" />
+68-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:33:60-84
+69    <uses-feature
+69-->[com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:26:5-28:35
+70        android:glEsVersion="0x00020000"
+70-->[com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:27:9-41
+71        android:required="true" />
+71-->[com.google.android.gms:play-services-maps:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\216aa936c8564d70b412ad8ead58908c\transformed\play-services-maps-15.0.1\AndroidManifest.xml:28:9-32
+72
+73    <uses-permission android:name="android.permission.WAKE_LOCK" />
+73-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:24:5-68
+73-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:24:22-65
+74    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+74-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:26:5-110
+74-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:26:22-107
+75    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+75-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:26:5-82
+75-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:26:22-79
+76
+77    <permission
+77-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:28:5-30:47
+78        android:name="com.example.zohocreatorsdk.sampleapp.permission.C2D_MESSAGE"
+78-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:29:9-63
+79        android:protectionLevel="signature" />
+79-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:30:9-44
+80
+81    <uses-permission android:name="com.example.zohocreatorsdk.sampleapp.permission.C2D_MESSAGE" />
+81-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:32:5-79
+81-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:32:22-76
+82
+83    <application
+83-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:7:5-69:19
+84        android:name="com.zoho.creator.a.ZCreatorApplication"
+84-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:8:9-62
+85        android:allowBackup="false"
+85-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:34:70-97
+86        android:configChanges="fontScale"
+86-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:34:98-131
+87        android:debuggable="true"
+88        android:icon="@mipmap/ic_launcher"
+88-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:9:9-43
+89        android:label="@string/app_name"
+89-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:10:9-41
+90        android:supportsRtl="true"
+90-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:11:9-35
+91        android:testOnly="true"
+92        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+92-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:12:9-65
+93        <activity
+93-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:14:9-17:52
+94            android:name="com.example.zohocreatorsdk.sampleapp.MenuzActivity"
+94-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:15:13-42
+95            android:configChanges="keyboardHidden|orientation|screenSize"
+95-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:16:13-74
+96            android:screenOrientation="portrait" />
+96-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:17:13-49
+97        <activity
+97-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:18:9-21:52
+98            android:name="com.example.zohocreatorsdk.sampleapp.AddContactActivity"
+98-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:19:13-47
+99            android:configChanges="keyboardHidden|orientation|screenSize"
+99-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:20:13-74
+100            android:screenOrientation="portrait" />
+100-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:21:13-49
+101        <activity
+101-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:22:9-25:52
+102            android:name="com.example.zohocreatorsdk.sampleapp.ContactActivity"
+102-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:23:13-44
+103            android:configChanges="keyboardHidden|orientation|screenSize"
+103-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:24:13-74
+104            android:screenOrientation="portrait" />
+104-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:25:13-49
+105        <activity
+105-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:26:9-29:52
+106            android:name="com.example.zohocreatorsdk.sampleapp.TaskRecord"
+106-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:27:13-39
+107            android:configChanges="keyboardHidden|orientation|screenSize"
+107-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:28:13-74
+108            android:screenOrientation="portrait" />
+108-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:29:13-49
+109        <activity
+109-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:30:9-33:52
+110            android:name="com.example.zohocreatorsdk.sampleapp.HomeActivity"
+110-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:31:13-41
+111            android:configChanges="keyboardHidden|orientation|screenSize"
+111-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:32:13-74
+112            android:screenOrientation="portrait" />
+112-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:33:13-49
+113        <activity
+113-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:34:9-37:52
+114            android:name="com.example.zohocreatorsdk.sampleapp.ShuttleActivity"
+114-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:35:13-44
+115            android:configChanges="keyboardHidden|orientation|screenSize"
+115-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:36:13-74
+116            android:screenOrientation="portrait" />
+116-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:37:13-49
+117        <activity
+117-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:38:9-41:52
+118            android:name="com.example.zohocreatorsdk.sampleapp.SuppliesActivity"
+118-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:39:13-45
+119            android:configChanges="keyboardHidden|orientation|screenSize"
+119-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:40:13-74
+120            android:screenOrientation="portrait" />
+120-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:41:13-49
+121        <activity
+121-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:42:9-45:52
+122            android:name="com.example.zohocreatorsdk.sampleapp.CanteenActivity"
+122-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:43:13-44
+123            android:configChanges="keyboardHidden|orientation|screenSize"
+123-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:44:13-74
+124            android:screenOrientation="portrait" />
+124-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:45:13-49
+125        <activity
+125-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:46:9-49:52
+126            android:name="com.example.zohocreatorsdk.sampleapp.ComplaintsActivity"
+126-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:47:13-47
+127            android:configChanges="keyboardHidden|orientation|screenSize"
+127-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:48:13-74
+128            android:screenOrientation="portrait" />
+128-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:49:13-49
+129        <activity
+129-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:50:9-59:20
+130            android:name="com.example.zohocreatorsdk.sampleapp.LauncherActivity"
+130-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:51:13-45
+131            android:configChanges="keyboardHidden|orientation|screenSize"
+131-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:52:13-74
+132            android:screenOrientation="portrait" >
+132-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:53:13-49
+133            <intent-filter>
+133-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:54:13-58:29
+134                <action android:name="android.intent.action.MAIN" />
+134-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:55:17-69
+134-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:55:25-66
+135
+136                <category android:name="android.intent.category.LAUNCHER" />
+136-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:57:17-77
+136-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:57:27-74
+137            </intent-filter>
+138        </activity>
+139        <activity android:name="com.example.zohocreatorsdk.sampleapp.HandleRedirectActivity" >
+139-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:60:9-68:20
+139-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:60:19-57
+140            <intent-filter>
+140-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:61:13-67:29
+141                <action android:name="android.intent.action.VIEW" />
+141-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:62:17-69
+141-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:62:25-66
+142
+143                <category android:name="android.intent.category.DEFAULT" />
+143-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:63:17-76
+143-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:63:27-73
+144                <category android:name="android.intent.category.BROWSABLE" />
+144-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:64:17-78
+144-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:64:27-75
+145
+146                <data android:scheme="@string/redir_url_for_manifest" />
+146-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:65:17-73
+146-->C:\ZohoCreatorAndroidSDKDemo\Utility\app\src\main\AndroidManifest.xml:65:23-70
+147            </intent-filter>
+148        </activity>
+149        <activity
+149-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:35:5-261
+150            android:name="com.zoho.creator.a.SplashScreen"
+150-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:35:15-61
+151            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+151-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:35:62-133
+152            android:label="@string/ui.label.appname"
+152-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:35:134-174
+153            android:theme="@style/ZohoCreatorNewTheme"
+153-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:35:175-217
+154            android:windowSoftInputMode="stateHidden" />
+154-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:35:218-259
+155        <activity
+155-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:36:5-178
+156            android:name="com.zoho.creator.a.DialogActivity"
+156-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:36:15-63
+157            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+157-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:36:64-135
+158            android:theme="@style/Theme.Transparent" />
+158-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:36:136-176
+159        <activity
+159-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:37:5-187
+160            android:name="com.zoho.creator.a.DeleteAccessedComponents"
+160-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:37:15-73
+161            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+161-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:37:74-145
+162            android:theme="@style/ZohoCreatorTheme" />
+162-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:37:146-185
+163        <activity
+163-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:38:5-188
+164            android:name="com.zoho.creator.a.SignatureFieldActivity"
+164-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:38:15-71
+165            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+165-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:38:72-143
+166            android:theme="@style/ZohoCreatorNewTheme" />
+166-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:38:144-186
+167        <activity
+167-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:39:5-199
+168            android:name="com.zoho.creator.a.ApplicationSettingsActivity"
+168-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:39:15-76
+169            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+169-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:39:77-148
+170            android:theme="@style/SlidingDraweActivityTheme" />
+170-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:39:149-197
+171        <activity
+171-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:40:5-184
+172            android:name="com.zoho.creator.a.FormActivity"
+172-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:40:15-61
+173            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+173-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:40:62-133
+174            android:theme="@style/SlidingDraweActivityTheme" />
+174-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:40:134-182
+175        <activity
+175-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:41:5-251
+176            android:name="com.zoho.creator.a.ListReportActivity"
+176-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:41:15-67
+177            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+177-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:41:68-139
+178            android:label=""
+178-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:41:140-156
+179            android:theme="@style/SlidingDraweActivityTheme"
+179-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:41:157-205
+180            android:windowSoftInputMode="adjustNothing" />
+180-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:41:206-249
+181        <activity
+181-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:42:5-185
+182            android:name="com.zoho.creator.a.DetailViewListActivity"
+182-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:42:15-71
+183            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+183-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:42:72-143
+184            android:theme="@style/ZohoCreatorTheme" />
+184-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:42:144-183
+185        <activity
+185-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:43:5-186
+186            android:name="com.zoho.creator.a.ApprovalSummaryActivity"
+186-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:43:15-72
+187            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+187-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:43:73-144
+188            android:theme="@style/ZohoCreatorTheme" />
+188-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:43:145-184
+189        <activity
+189-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:44:5-189
+190            android:name="com.zoho.creator.a.PivotViewActivity"
+190-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:44:15-66
+191            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+191-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:44:67-138
+192            android:theme="@style/SlidingDraweActivityTheme" />
+192-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:44:139-187
+193        <activity
+193-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:45:5-185
+194            android:name="com.zoho.creator.a.MultiSearchFeildSelect"
+194-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:45:15-71
+195            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+195-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:45:72-143
+196            android:theme="@style/ZohoCreatorTheme" />
+196-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:45:144-183
+197        <activity
+197-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:46:5-189
+198            android:name="com.zoho.creator.a.MultiSearchConditionSelect"
+198-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:46:15-75
+199            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+199-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:46:76-147
+200            android:theme="@style/ZohoCreatorTheme" />
+200-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:46:148-187
+201        <activity
+201-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:47:5-185
+202            android:name="com.zoho.creator.a.MultiSelectActivity"
+202-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:47:15-68
+203            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+203-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:47:69-140
+204            android:theme="@style/ZohoCreatorNewTheme" />
+204-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:47:141-183
+205        <activity
+205-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:48:5-184
+206            android:name="com.zoho.creator.a.MultiSelectedActivity"
+206-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:48:15-70
+207            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+207-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:48:71-142
+208            android:theme="@style/ZohoCreatorTheme" />
+208-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:48:143-182
+209        <activity
+209-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:49:5-191
+210            android:name="com.zoho.creator.a.DeleteMultipleChoiceActivity"
+210-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:49:15-77
+211            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+211-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:49:78-149
+212            android:theme="@style/ZohoCreatorTheme" />
+212-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:49:150-189
+213        <activity
+213-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:50:5-222
+214            android:name="com.zoho.creator.a.SUBFormRecordListingActivity"
+214-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:50:15-77
+215            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+215-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:50:78-149
+216            android:label="SUBFormListing"
+216-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:50:150-180
+217            android:theme="@style/ZohoCreatorTheme" />
+217-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:50:181-220
+218        <activity
+218-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:51:5-179
+219            android:name="com.zoho.creator.a.BulkEditActivity"
+219-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:51:15-65
+220            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+220-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:51:66-137
+221            android:theme="@style/ZohoCreatorTheme" />
+221-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:51:138-177
+222        <activity
+222-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:52:5-256
+223            android:name="com.zoho.creator.a.CalenderActivity"
+223-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:52:15-65
+224            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+224-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:52:66-137
+225            android:label="CalenderActivity"
+225-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:52:138-170
+226            android:theme="@style/ZohoCreatorTheme"
+226-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:52:171-210
+227            android:windowSoftInputMode="adjustNothing" />
+227-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:52:211-254
+228        <activity
+228-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:53:5-137
+229            android:name="com.zoho.creator.a.GBSUBFormActivity"
+229-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:53:15-66
+230            android:label="GBRecordsActivity"
+230-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:53:67-100
+231            android:theme="@style/CustomTheme" />
+231-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:53:101-135
+232        <activity
+232-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:54:5-184
+233            android:name="com.zoho.creator.a.CalendarRecordsAction"
+233-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:54:15-70
+234            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+234-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:54:71-142
+235            android:theme="@style/ZohoCreatorTheme" />
+235-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:54:143-182
+236        <activity
+236-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:55:5-221
+237            android:name="com.zoho.creator.a.HTMLViewActivity"
+237-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:55:15-65
+238            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+238-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:55:66-137
+239            android:label="HTMLViewActivity"
+239-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:55:138-170
+240            android:theme="@style/SlidingDraweActivityTheme" />
+240-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:55:171-219
+241        <activity
+241-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:56:5-182
+242            android:name="com.zoho.creator.a.LoadWebViewActivity"
+242-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:56:15-68
+243            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+243-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:56:69-140
+244            android:theme="@style/ZohoCreatorTheme" />
+244-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:56:141-180
+245        <activity
+245-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:57:5-110
+246            android:name="com.zoho.creator.a.CustomFiltersActivity"
+246-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:57:15-70
+247            android:label="CustomFiltersActivity" />
+247-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:57:71-108
+248        <activity
+248-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:58:5-179
+249            android:name="com.zoho.creator.a.ZohoCreatorLogin"
+249-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:58:15-65
+250            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+250-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:58:66-137
+251            android:theme="@style/ZohoCreatorTheme" />
+251-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:58:138-177
+252        <activity
+252-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:59:5-192
+253            android:name="com.zoho.creator.a.SingleSelectChoiceActivity"
+253-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:59:15-75
+254            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+254-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:59:76-147
+255            android:theme="@style/ZohoCreatorNewTheme" />
+255-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:59:148-190
+256        <activity
+256-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:60:5-116
+257            android:name="com.zoho.creator.a.DeleteMultiSelectChoices"
+257-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:60:15-73
+258            android:label="DeleteMultiSelectChoices" />
+258-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:60:74-114
+259        <activity
+259-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:61:5-198
+260            android:name="com.zoho.creator.a.ImageViewerForFileUploadActivity"
+260-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:61:15-81
+261            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+261-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:61:82-153
+262            android:theme="@style/ZohoCreatorNewTheme" />
+262-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:61:154-196
+263        <activity
+263-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:62:5-176
+264            android:name="com.zoho.creator.a.OfflineFormActivity"
+264-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:62:15-68
+265            android:configChanges="orientation|screenSize|keyboard|fontScale"
+265-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:62:69-134
+266            android:theme="@style/ZohoCreatorTheme" />
+266-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:62:135-174
+267        <activity android:name="com.zoho.creator.a.CustomPinActivity" />
+267-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:63:5-68
+267-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:63:15-66
+268
+269        <service
+269-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:64:5-89
+270            android:name="com.zoho.creator.a.OfflineService"
+270-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:64:14-62
+271            android:exported="false" />
+271-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:64:63-87
+272
+273        <receiver android:name="com.zoho.creator.a.NetworkChangeReceiver" >
+273-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:65:5-69:16
+273-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:65:15-70
+274            <intent-filter>
+274-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:66:7-68:23
+275                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+275-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:67:9-70
+275-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:67:17-68
+276            </intent-filter>
+277        </receiver>
+278
+279        <service android:name="com.zoho.creator.a.KillNotificationsService" />
+279-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:70:5-74
+279-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:70:14-72
+280        <service
+280-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:71:5-75:15
+281            android:name="com.zoho.creator.a.AppUpdateService"
+281-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:71:14-64
+282            android:exported="false" >
+282-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:71:65-89
+283            <intent-filter>
+283-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:72:7-74:23
+284                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+284-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:73:9-75
+284-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:73:17-73
+285            </intent-filter>
+286        </service>
+287
+288        <receiver
+288-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:76:5-94
+289            android:name="com.zoho.creator.a.AppUpdateReceiver"
+289-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:76:15-66
+290            android:process=":remote" />
+290-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:76:67-92
+291
+292        <activity android:name="com.zoho.creator.a.AndroidDatabaseManager" />
+292-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:77:5-73
+292-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:77:15-71
+293        <activity
+293-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:78:5-197
+294            android:name="com.zoho.creator.a.ComponentSelectForPushNotification"
+294-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:78:15-83
+295            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+295-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:78:84-155
+296            android:theme="@style/ZohoCreatorTheme" />
+296-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:78:156-195
+297        <activity
+297-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:79:5-201
+298            android:name="com.zoho.creator.a.PreviewActivity"
+298-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:79:15-64
+299            android:configChanges="fontScale"
+299-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:79:65-98
+300            android:label="PreviewActivity"
+300-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:79:99-130
+301            android:noHistory="false"
+301-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:79:131-156
+302            android:theme="@style/ZohoCreatorNewTheme" />
+302-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:79:157-199
+303        <activity
+303-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:80:5-226
+304            android:name="com.zoho.creator.a.CameraActivity"
+304-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:80:15-63
+305            android:configChanges="fontScale"
+305-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:80:64-97
+306            android:label="CameraActivity"
+306-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:80:98-128
+307            android:screenOrientation="portrait"
+307-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:80:129-165
+308            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+308-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:80:166-224
+309        <activity
+309-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:81:5-192
+310            android:name="com.zoho.creator.a.Upgrade_To_ProfessionalEdition"
+310-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:81:15-79
+311            android:label="@string/subscribe"
+311-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:81:80-113
+312            android:screenOrientation="portrait"
+312-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:81:114-150
+313            android:theme="@style/ZohoCreatorTheme" />
+313-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:81:151-190
+314        <activity
+314-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:82:5-259
+315            android:name="com.zoho.creator.a.BaiduMapViewToSelectAddressActivity"
+315-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:82:15-84
+316            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+316-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:82:85-156
+317            android:label="BaiduMapViewToSelectAddressActivity"
+317-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:82:157-208
+318            android:theme="@style/SlidingDraweActivityTheme" />
+318-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:82:209-257
+319        <activity
+319-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:83:5-251
+320            android:name="com.zoho.creator.a.SelectAddressInMapActivity"
+320-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:83:15-75
+321            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+321-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:83:76-147
+322            android:label="GoogleMapViewToSelectAddressActivity"
+322-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:83:148-200
+323            android:theme="@style/SlidingDraweActivityTheme" />
+323-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:83:201-249
+324        <activity
+324-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:84:5-163
+325            android:name="com.zoho.creator.a.ZCMapViewSearchActivity"
+325-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:84:15-72
+326            android:label="ZCMapViewSearchActivity"
+326-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:84:73-112
+327            android:theme="@style/SlidingDraweActivityTheme" />
+327-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:84:113-161
+328        <activity
+328-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:85:5-189
+329            android:name="com.zoho.creator.a.ZCMapViewRecentSearchHistoryActivity"
+329-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:85:15-85
+330            android:label="ZCMapViewRecentSearchHistoryActivity"
+330-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:85:86-138
+331            android:theme="@style/SlidingDraweActivityTheme" />
+331-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:85:139-187
+332        <activity
+332-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:86:5-221
+333            android:name="com.zoho.creator.a.MapViewActivity"
+333-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:86:15-64
+334            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+334-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:86:65-136
+335            android:label="MCMapViewActivity"
+335-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:86:137-170
+336            android:theme="@style/SlidingDraweActivityTheme" />
+336-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:86:171-219
+337        <activity
+337-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:87:5-175
+338            android:name="com.zoho.creator.a.MapViewLocationSearchActivity"
+338-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:87:15-78
+339            android:label="MapViewLocationSearchActivity"
+339-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:87:79-124
+340            android:theme="@style/SlidingDraweActivityTheme" />
+340-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:87:125-173
+341        <activity
+341-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:88:5-246
+342            android:name="com.zoho.creator.a.ApplicationDashBoardActivity"
+342-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:88:15-77
+343            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+343-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:88:78-149
+344            android:label="ComponentsInBottomBarActivity"
+344-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:88:150-195
+345            android:theme="@style/SlidingDraweActivityTheme" />
+345-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:88:196-244
+346        <activity
+346-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:89:5-280
+347            android:name="com.zoho.creator.a.ZohoCreatorDashBoardActivity"
+347-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:89:15-77
+348            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+348-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:89:78-149
+349            android:label="Zoho Creator"
+349-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:89:150-178
+350            android:theme="@style/ZohoCreatorDashboardActivityTheme"
+350-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:89:179-235
+351            android:windowSoftInputMode="adjustResize" />
+351-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:89:236-278
+352        <activity
+352-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:90:5-273
+353            android:name="com.zoho.creator.a.MarkFavoritesActivity"
+353-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:90:15-70
+354            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+354-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:90:71-142
+355            android:label="Zoho Creator"
+355-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:90:143-171
+356            android:theme="@style/ZohoCreatorDashboardActivityTheme"
+356-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:90:172-228
+357            android:windowSoftInputMode="adjustResize" />
+357-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:90:229-271
+358
+359        <service
+359-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:91:5-98
+360            android:name="com.zoho.creator.a.StoreRecordsInDBService"
+360-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:91:14-71
+361            android:exported="false" />
+361-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:91:72-96
+362        <service
+362-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:92:5-94
+363            android:name="com.zoho.creator.a.FileDownloadService"
+363-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:92:14-67
+364            android:exported="false" />
+364-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:92:68-92
+365
+366        <activity
+366-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:93:5-191
+367            android:name="com.zoho.creator.a.PageDisplayActivity"
+367-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:93:15-68
+368            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+368-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:93:69-140
+369            android:theme="@style/SlidingDraweActivityTheme" />
+369-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:93:141-189
+370        <activity
+370-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:94:5-191
+371            android:name="com.zoho.creator.a.ImageViewerActivity"
+371-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:94:15-68
+372            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+372-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:94:69-140
+373            android:theme="@style/SlidingDraweActivityTheme" />
+373-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:94:141-189
+374        <activity
+374-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:95:5-214
+375            android:name="com.zoho.creator.a.CustomerPortalSignUpActivity"
+375-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:95:15-77
+376            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+376-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:95:78-149
+377            android:label="Signup"
+377-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:95:150-172
+378            android:theme="@style/ZohoCreatorTheme" />
+378-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:95:173-212
+379        <activity
+379-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:96:5-204
+380            android:name="com.zoho.creator.a.DashboardOptionsActivity"
+380-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:96:15-73
+381            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+381-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:96:74-145
+382            android:theme="@style/ZohoCreatorDashboardActivityTheme" />
+382-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:96:146-202
+383        <activity
+383-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:97:5-221
+384            android:name="com.zoho.creator.a.ImageAnnotateActivity"
+384-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:97:15-70
+385            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+385-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:97:71-142
+386            android:screenOrientation="portrait"
+386-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:97:143-179
+387            android:theme="@style/ZohoCreatorTheme" />
+387-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:97:180-219
+388        <activity
+388-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:98:5-150
+389            android:name="com.zoho.creator.a.SummaryImagePreviewActivity"
+389-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:98:15-76
+390            android:configChanges="orientation|keyboardHidden|screenSize|fontScale" />
+390-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:98:77-148
+391        <activity
+391-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:99:5-169
+392            android:name="com.zoho.creator.a.AudioRecordActivity"
+392-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:99:15-68
+393            android:configChanges="orientation|keyboardHidden|screenSize"
+393-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:99:69-130
+394            android:screenOrientation="portrait" />
+394-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:99:131-167
+395
+396        <receiver android:name="com.zoho.creator.a.PhoneCallReceiver" >
+396-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:100:5-104:16
+396-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:100:15-66
+397            <intent-filter>
+397-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:101:7-103:23
+398                <action android:name="android.intent.action.PHONE_STATE" />
+398-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:102:9-67
+398-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:102:17-65
+399            </intent-filter>
+400        </receiver>
+401        <receiver android:name="com.zoho.creator.a.NetworkChangeMonitoringReceiver" >
+401-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:105:5-109:16
+401-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:105:15-80
+402            <intent-filter>
+402-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:66:7-68:23
+403                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+403-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:67:9-70
+403-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:67:17-68
+404            </intent-filter>
+405        </receiver>
+406
+407        <activity
+407-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:110:5-210
+408            android:name="com.zoho.creator.a.BulkSubmitActivity"
+408-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:110:15-67
+409            android:configChanges="orientation|screenSize|keyboard|fontScale"
+409-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:110:68-133
+410            android:label="BulkSubmitActivity"
+410-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:110:134-168
+411            android:theme="@style/ZohoCreatorTheme" />
+411-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:110:169-208
+412        <activity
+412-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:111:5-230
+413            android:name="com.zoho.creator.a.CountrySpinnerActivity"
+413-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:111:15-71
+414            android:configChanges="orientation|keyboardHidden|screenSize"
+414-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:111:72-133
+415            android:theme="@style/ZohoCreatorNewTheme"
+415-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:111:134-176
+416            android:windowSoftInputMode="stateHidden|adjustPan" />
+416-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:111:177-228
+417        <activity
+417-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:112:5-234
+418            android:name="com.zoho.creator.a.PhoneNumberSpinnerActivity"
+418-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:112:15-75
+419            android:configChanges="orientation|keyboardHidden|screenSize"
+419-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:112:76-137
+420            android:theme="@style/ZohoCreatorNewTheme"
+420-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:112:138-180
+421            android:windowSoftInputMode="stateHidden|adjustPan" />
+421-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:112:181-232
+422        <activity
+422-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:113:5-180
+423            android:name="com.zoho.creator.a.SearchActivity"
+423-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:113:15-63
+424            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+424-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:113:64-135
+425            android:theme="@style/ZohoCreatorNewTheme" />
+425-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:113:136-178
+426        <activity
+426-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:114:5-180
+427            android:name="com.zoho.creator.a.FilterActivity"
+427-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:114:15-63
+428            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+428-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:114:64-135
+429            android:theme="@style/ZohoCreatorNewTheme" />
+429-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:114:136-178
+430        <activity
+430-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:115:5-193
+431            android:name="com.zoho.creator.a.SearchFilterHistoryActivity"
+431-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:115:15-76
+432            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+432-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:115:77-148
+433            android:theme="@style/ZohoCreatorNewTheme" />
+433-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:115:149-191
+434        <activity
+434-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:116:5-196
+435            android:name="com.zoho.creator.a.NewSearchFilterHistoryActivity"
+435-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:116:15-79
+436            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+436-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:116:80-151
+437            android:theme="@style/ZohoCreatorNewTheme" />
+437-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:116:152-194
+438        <activity
+438-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:117:5-199
+439            android:name="com.zoho.creator.a.SearchFilterHistoryDetailActivity"
+439-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:117:15-82
+440            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+440-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:117:83-154
+441            android:theme="@style/ZohoCreatorNewTheme" />
+441-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:117:155-197
+442        <activity
+442-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:118:5-193
+443            android:name="com.zoho.creator.a.SearchHistoryDetailActivity"
+443-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:118:15-76
+444            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+444-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:118:77-148
+445            android:theme="@style/ZohoCreatorNewTheme" />
+445-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:118:149-191
+446        <activity android:name="com.zoho.creator.a.CalendarGroupMonthListActivity" />
+446-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:119:5-81
+446-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:119:15-79
+447        <activity
+447-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:120:5-152
+448            android:name="com.zoho.creator.a.TranslationUserChoiceActivity"
+448-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:120:15-78
+449            android:configChanges="orientation|keyboardHidden|screenSize|fontScale" />
+449-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:120:79-150
+450        <activity android:name="com.zoho.creator.a.RecordListSortActivity" />
+450-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:121:5-73
+450-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:121:15-71
+451        <activity
+451-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:122:5-195
+452            android:name="com.zoho.creator.a.SearchConditionSelectActivity"
+452-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:122:15-78
+453            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+453-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:122:79-150
+454            android:theme="@style/ZohoCreatorNewTheme" />
+454-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:122:151-193
+455        <activity
+455-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:123:5-187
+456            android:name="com.zoho.creator.a.ThemeSettingsActivity"
+456-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:123:15-70
+457            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+457-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:123:71-142
+458            android:theme="@style/ZohoCreatorNewTheme" />
+458-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:123:143-185
+459        <activity
+459-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:124:5-188
+460            android:name="com.zoho.creator.a.ThemeSelectionActivity"
+460-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:124:15-71
+461            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+461-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:124:72-143
+462            android:theme="@style/ZohoCreatorNewTheme" />
+462-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:124:144-186
+463        <activity android:name="com.zoho.creator.a.HandleRedirectActivity" />
+463-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:125:5-73
+463-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:125:15-71
+464        <activity
+464-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:126:5-228
+465            android:name="com.zoho.creator.a.ReportSaveActivity"
+465-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:126:15-67
+466            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+466-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:126:68-139
+467            android:theme="@style/ZohoCreatorNewTheme"
+467-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:126:140-182
+468            android:windowSoftInputMode="adjustNothing" />
+468-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:126:183-226
+469
+470        <provider
+470-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:127:5-129:16
+471            android:name="android.support.v4.content.FileProvider"
+471-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:127:15-69
+472            android:authorities="com.example.zohocreatorsdk.sampleapp.provider"
+472-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:127:70-117
+473            android:exported="false"
+473-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:127:118-142
+474            android:grantUriPermissions="true" >
+474-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:127:143-177
+475            <meta-data
+475-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:128:7-109
+476                android:name="android.support.FILE_PROVIDER_PATHS"
+476-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:128:18-68
+477                android:resource="@xml/provider_paths" />
+477-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:128:69-107
+478        </provider>
+479
+480        <activity
+480-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:130:5-289
+481            android:name="com.zoho.creator.a.ChooseComponentForAppShortcutActivity"
+481-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:130:15-86
+482            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+482-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:130:87-158
+483            android:label="Zoho Creator"
+483-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:130:159-187
+484            android:theme="@style/ZohoCreatorDashboardActivityTheme"
+484-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:130:188-244
+485            android:windowSoftInputMode="adjustResize" />
+485-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:130:245-287
+486        <activity
+486-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:131:5-278
+487            android:name="com.zoho.creator.a.GalleryAppMoreInfoActivity"
+487-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:131:15-75
+488            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+488-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:131:76-147
+489            android:label="Zoho Creator"
+489-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:131:148-176
+490            android:theme="@style/ZohoCreatorDashboardActivityTheme"
+490-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:131:177-233
+491            android:windowSoftInputMode="adjustResize" />
+491-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:131:234-276
+492        <activity
+492-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:132:5-234
+493            android:name="com.zoho.creator.a.KanbanViewActivity"
+493-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:132:15-67
+494            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+494-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:132:68-139
+495            android:theme="@style/SlidingDraweActivityTheme"
+495-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:132:140-188
+496            android:windowSoftInputMode="adjustNothing" />
+496-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:132:189-232
+497        <activity
+497-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:133:5-195
+498            android:name="com.zoho.creator.a.ApplyCriteriaInReportActivity"
+498-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:133:15-78
+499            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+499-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:133:79-150
+500            android:theme="@style/ZohoCreatorNewTheme" />
+500-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:133:151-193
+501        <activity
+501-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:134:5-144
+502            android:name="com.zoho.creator.a.ApprovalTasksActivity"
+502-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:134:15-70
+503            android:configChanges="orientation|keyboardHidden|screenSize|fontScale" />
+503-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:134:71-142
+504        <activity
+504-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:135:5-191
+505            android:name="com.zoho.creator.a.ShowLocationInMapActivity"
+505-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:135:15-74
+506            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+506-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:135:75-146
+507            android:theme="@style/ZohoCreatorNewTheme" />
+507-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:135:147-189
+508        <activity
+508-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:136:5-189
+509            android:name="com.zoho.creator.a.BaiduMapViewPlotAddress"
+509-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:136:15-72
+510            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+510-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:136:73-144
+511            android:theme="@style/ZohoCreatorNewTheme" />
+511-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:136:145-187
+512
+513        <service
+513-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:137:5-141:15
+514            android:name="com.zoho.creator.a.ZCreatorFirebaseMessagingService"
+514-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:137:14-80
+515            android:exported="true" >
+515-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:137:81-104
+516            <intent-filter>
+516-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:138:7-140:23
+517                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+517-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:139:9-69
+517-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:139:17-67
+518            </intent-filter>
+519        </service>
+520        <service
+520-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:142:5-146:15
+521            android:name="com.zoho.creator.a.ZCreatorFirebaseInstanceIDService"
+521-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:142:14-81
+522            android:exported="true" >
+522-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:142:82-105
+523            <intent-filter>
+523-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:143:7-145:23
+524                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+524-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:144:9-71
+524-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:144:17-69
+525            </intent-filter>
+526        </service>
+527
+528        <meta-data
+528-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:147:5-92
+529            android:name="firebase_analytics_collection_enabled"
+529-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:147:16-68
+530            android:value="false" />
+530-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:147:69-90
+531
+532        <activity
+532-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:148:5-111
+533            android:name="com.zoho.creator.a.ZCScannerActivity"
+533-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:148:15-66
+534            android:theme="@style/ZohoCreatorNewTheme" />
+534-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:148:67-109
+535
+536        <receiver
+536-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:149:5-153:16
+537            android:name="com.zoho.creator.a.InstallReferrerBroadcastReceiver"
+537-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:149:15-81
+538            android:exported="true" >
+538-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:149:82-105
+539            <intent-filter>
+539-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:150:7-152:23
+540                <action android:name="com.android.vending.INSTALL_REFERRER" />
+540-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:151:9-70
+540-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:151:17-68
+541            </intent-filter>
+542        </receiver>
+543
+544        <activity
+544-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:154:5-182
+545            android:name="com.zoho.creator.a.SettingsActivity"
+545-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:154:15-65
+546            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+546-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:154:66-137
+547            android:theme="@style/ZohoCreatorNewTheme" />
+547-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:154:138-180
+548        <activity
+548-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:155:5-179
+549            android:name="com.zoho.creator.a.SDKLoginActivity"
+549-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:155:15-65
+550            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+550-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:155:66-137
+551            android:theme="@style/ZohoCreatorTheme" />
+551-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:155:138-177
+552        <activity
+552-->[com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:16:9-18:72
+553            android:name="com.zoho.accounts.externalframework.WebViewActivity"
+553-->[com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:17:13-79
+554            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+554-->[com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:18:13-69
+555        <activity
+555-->[com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:19:9-21:72
+556            android:name="com.zoho.accounts.externalframework.ChromeTabActivity"
+556-->[com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:20:13-81
+557            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+557-->[com.zoho.accounts.android:zaccountssdk:V1_0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\16e66698ed672adf9fbfbc8f4b18f210\transformed\zaccountssdk-V1_0\AndroidManifest.xml:21:13-69
+558        <!--
+559             FirebaseMessagingService performs security checks at runtime,
+560             no need for explicit permissions despite exported="true"
+561        -->
+562        <service
+562-->[com.google.firebase:firebase-messaging:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\29b6a0adcab4da218fb713e792fb05cb\transformed\firebase-messaging-15.0.2\AndroidManifest.xml:28:9-34:19
+563            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+563-->[com.google.firebase:firebase-messaging:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\29b6a0adcab4da218fb713e792fb05cb\transformed\firebase-messaging-15.0.2\AndroidManifest.xml:29:13-82
+564            android:exported="true" >
+564-->[com.google.firebase:firebase-messaging:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\29b6a0adcab4da218fb713e792fb05cb\transformed\firebase-messaging-15.0.2\AndroidManifest.xml:30:13-36
+565            <intent-filter android:priority="-500" >
+565-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:138:7-140:23
+566                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+566-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:139:9-69
+566-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:139:17-67
+567            </intent-filter>
+568        </service>
+569        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+569-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:27:9-31:19
+569-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:27:18-89
+570            <meta-data
+570-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:28:13-30:85
+571                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+571-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:29:17-139
+572                android:value="com.google.firebase.components.ComponentRegistrar" />
+572-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\3f1b7963ed168d07390ff057234de328\transformed\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:30:17-82
+573            <meta-data
+573-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:36:13-38:85
+574                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+574-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:37:17-96
+575                android:value="com.google.firebase.components.ComponentRegistrar" />
+575-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:38:17-82
+576        </service>
+577
+578        <receiver
+578-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:29:9-33:20
+579            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+579-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:30:13-85
+580            android:enabled="true"
+580-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:31:13-35
+581            android:exported="false" >
+581-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:32:13-37
+582        </receiver>
+583        <receiver
+583-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:34:9-42:20
+584            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+584-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:35:13-100
+585            android:enabled="true"
+585-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:36:13-35
+586            android:exported="true"
+586-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:37:13-36
+587            android:permission="android.permission.INSTALL_PACKAGES" >
+587-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:38:13-69
+588            <intent-filter>
+588-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:150:7-152:23
+589                <action android:name="com.android.vending.INSTALL_REFERRER" />
+589-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:151:9-70
+589-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:151:17-68
+590            </intent-filter>
+591        </receiver>
+592
+593        <service
+593-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:44:9-47:40
+594            android:name="com.google.android.gms.measurement.AppMeasurementService"
+594-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:45:13-84
+595            android:enabled="true"
+595-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:46:13-35
+596            android:exported="false" />
+596-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:47:13-37
+597        <service
+597-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:48:9-52:72
+598            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+598-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:49:13-87
+599            android:enabled="true"
+599-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:50:13-35
+600            android:exported="false"
+600-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:51:13-37
+601            android:permission="android.permission.BIND_JOB_SERVICE" />
+601-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\97bf2509d5fb52fb611e2d51eeb45fc4\transformed\firebase-analytics-15.0.2\AndroidManifest.xml:52:13-69
+602
+603        <receiver
+603-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:41:9-50:20
+604            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+604-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:42:13-78
+605            android:exported="true"
+605-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:43:13-36
+606            android:permission="com.google.android.c2dm.permission.SEND" >
+606-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:44:13-73
+607            <intent-filter>
+607-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:45:13-49:29
+608                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+608-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:46:17-81
+608-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:46:25-78
+609
+610                <category android:name="com.example.zohocreatorsdk.sampleapp" />
+610-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:48:17-61
+610-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:48:27-58
+611            </intent-filter>
+612        </receiver>
+613        <!--
+614             FirebaseInstanceIdService performs security checks at runtime,
+615             no need for explicit permissions despite exported="true"
+616        -->
+617        <service
+617-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:56:9-62:19
+618            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+618-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:57:13-77
+619            android:exported="true" >
+619-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\73510f2fe08fe754cb5f918275bf662c\transformed\firebase-iid-15.1.0\AndroidManifest.xml:58:13-36
+620            <intent-filter android:priority="-500" >
+620-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:143:7-145:23
+621                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+621-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:144:9-71
+621-->[com.zoho.creator:creator-ui:1.0] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\c30a0f8309e6d8f629b67c283d548f0b\transformed\creator-ui-1.0\AndroidManifest.xml:144:17-69
+622            </intent-filter>
+623        </service>
+624
+625        <activity
+625-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d2339f5ec7ec57c980e56bd17bffaf82\transformed\play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+626            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+626-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d2339f5ec7ec57c980e56bd17bffaf82\transformed\play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+627            android:exported="false"
+627-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d2339f5ec7ec57c980e56bd17bffaf82\transformed\play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+628            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+628-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\d2339f5ec7ec57c980e56bd17bffaf82\transformed\play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+629
+630        <provider
+630-->[com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:8:9-12:39
+631            android:name="com.google.firebase.provider.FirebaseInitProvider"
+631-->[com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:9:13-77
+632            android:authorities="com.example.zohocreatorsdk.sampleapp.firebaseinitprovider"
+632-->[com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:10:13-72
+633            android:exported="false"
+633-->[com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:11:13-37
+634            android:initOrder="100" />
+634-->[com.google.firebase:firebase-common:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\0d6be916decb6c81ef69116235dd4c8c\transformed\firebase-common-15.0.1\AndroidManifest.xml:12:13-36
+635
+636        <meta-data
+636-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\80f1249c116570416655f289f502f170\transformed\play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+637            android:name="com.google.android.gms.version"
+637-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\80f1249c116570416655f289f502f170\transformed\play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+638            android:value="@integer/google_play_services_version" />
+638-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\80f1249c116570416655f289f502f170\transformed\play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+639        <!--
+640             Receives GooglePlay execution requests and forwards them to the
+641             appropriate internal service.
+642        -->
+643        <service
+643-->[com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:32:9-39:19
+644            android:name="com.firebase.jobdispatcher.GooglePlayReceiver"
+644-->[com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:33:13-73
+645            android:exported="true"
+645-->[com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:34:13-36
+646            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+646-->[com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:35:13-93
+647            <intent-filter>
+647-->[com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:36:13-38:29
+648                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+648-->[com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:37:17-87
+648-->[com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Zidane Firdaus\.gradle\caches\transforms-3\7c1e5665c8de8e348d183eb88de92bdc\transformed\firebase-jobdispatcher-0.8.5\AndroidManifest.xml:37:25-84
+649            </intent-filter>
+650        </service>
+651    </application>
+652
+653</manifest>

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zohocreatorsdk.sampleapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.permRead" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+    <uses-feature
+        android:name="android.permission.BLUETOOTH"
+        android:required="false" />
+    <uses-feature
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.Camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.example.zohocreatorsdk.sampleapp.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.zohocreatorsdk.sampleapp.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="com.zoho.creator.a.ZCreatorApplication"
+        android:allowBackup="false"
+        android:configChanges="fontScale"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name="com.example.zohocreatorsdk.sampleapp.MenuzActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.zohocreatorsdk.sampleapp.AddContactActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.zohocreatorsdk.sampleapp.ContactActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.zohocreatorsdk.sampleapp.TaskRecord"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.zohocreatorsdk.sampleapp.HomeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.zohocreatorsdk.sampleapp.ShuttleActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.zohocreatorsdk.sampleapp.SuppliesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.zohocreatorsdk.sampleapp.CanteenActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.zohocreatorsdk.sampleapp.ComplaintsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.zohocreatorsdk.sampleapp.LauncherActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.zohocreatorsdk.sampleapp.HandleRedirectActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/redir_url_for_manifest" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zoho.creator.a.SplashScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:label="@string/ui.label.appname"
+            android:theme="@style/ZohoCreatorNewTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoho.creator.a.DialogActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.zoho.creator.a.DeleteAccessedComponents"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.SignatureFieldActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.ApplicationSettingsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/SlidingDraweActivityTheme" />
+        <activity
+            android:name="com.zoho.creator.a.FormActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/SlidingDraweActivityTheme" />
+        <activity
+            android:name="com.zoho.creator.a.ListReportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:label=""
+            android:theme="@style/SlidingDraweActivityTheme"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.zoho.creator.a.DetailViewListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.ApprovalSummaryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.PivotViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/SlidingDraweActivityTheme" />
+        <activity
+            android:name="com.zoho.creator.a.MultiSearchFeildSelect"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.MultiSearchConditionSelect"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.MultiSelectActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.MultiSelectedActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.DeleteMultipleChoiceActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.SUBFormRecordListingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:label="SUBFormListing"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.BulkEditActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.CalenderActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:label="CalenderActivity"
+            android:theme="@style/ZohoCreatorTheme"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.zoho.creator.a.GBSUBFormActivity"
+            android:label="GBRecordsActivity"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name="com.zoho.creator.a.CalendarRecordsAction"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.HTMLViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:label="HTMLViewActivity"
+            android:theme="@style/SlidingDraweActivityTheme" />
+        <activity
+            android:name="com.zoho.creator.a.LoadWebViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.CustomFiltersActivity"
+            android:label="CustomFiltersActivity" />
+        <activity
+            android:name="com.zoho.creator.a.ZohoCreatorLogin"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.SingleSelectChoiceActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.DeleteMultiSelectChoices"
+            android:label="DeleteMultiSelectChoices" />
+        <activity
+            android:name="com.zoho.creator.a.ImageViewerForFileUploadActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.OfflineFormActivity"
+            android:configChanges="orientation|screenSize|keyboard|fontScale"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity android:name="com.zoho.creator.a.CustomPinActivity" />
+
+        <service
+            android:name="com.zoho.creator.a.OfflineService"
+            android:exported="false" />
+
+        <receiver android:name="com.zoho.creator.a.NetworkChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.zoho.creator.a.KillNotificationsService" />
+        <service
+            android:name="com.zoho.creator.a.AppUpdateService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.zoho.creator.a.AppUpdateReceiver"
+            android:process=":remote" />
+
+        <activity android:name="com.zoho.creator.a.AndroidDatabaseManager" />
+        <activity
+            android:name="com.zoho.creator.a.ComponentSelectForPushNotification"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.PreviewActivity"
+            android:configChanges="fontScale"
+            android:label="PreviewActivity"
+            android:noHistory="false"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.CameraActivity"
+            android:configChanges="fontScale"
+            android:label="CameraActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.zoho.creator.a.Upgrade_To_ProfessionalEdition"
+            android:label="@string/subscribe"
+            android:screenOrientation="portrait"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.BaiduMapViewToSelectAddressActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:label="BaiduMapViewToSelectAddressActivity"
+            android:theme="@style/SlidingDraweActivityTheme" />
+        <activity
+            android:name="com.zoho.creator.a.SelectAddressInMapActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:label="GoogleMapViewToSelectAddressActivity"
+            android:theme="@style/SlidingDraweActivityTheme" />
+        <activity
+            android:name="com.zoho.creator.a.ZCMapViewSearchActivity"
+            android:label="ZCMapViewSearchActivity"
+            android:theme="@style/SlidingDraweActivityTheme" />
+        <activity
+            android:name="com.zoho.creator.a.ZCMapViewRecentSearchHistoryActivity"
+            android:label="ZCMapViewRecentSearchHistoryActivity"
+            android:theme="@style/SlidingDraweActivityTheme" />
+        <activity
+            android:name="com.zoho.creator.a.MapViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:label="MCMapViewActivity"
+            android:theme="@style/SlidingDraweActivityTheme" />
+        <activity
+            android:name="com.zoho.creator.a.MapViewLocationSearchActivity"
+            android:label="MapViewLocationSearchActivity"
+            android:theme="@style/SlidingDraweActivityTheme" />
+        <activity
+            android:name="com.zoho.creator.a.ApplicationDashBoardActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:label="ComponentsInBottomBarActivity"
+            android:theme="@style/SlidingDraweActivityTheme" />
+        <activity
+            android:name="com.zoho.creator.a.ZohoCreatorDashBoardActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:label="Zoho Creator"
+            android:theme="@style/ZohoCreatorDashboardActivityTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.zoho.creator.a.MarkFavoritesActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:label="Zoho Creator"
+            android:theme="@style/ZohoCreatorDashboardActivityTheme"
+            android:windowSoftInputMode="adjustResize" />
+
+        <service
+            android:name="com.zoho.creator.a.StoreRecordsInDBService"
+            android:exported="false" />
+        <service
+            android:name="com.zoho.creator.a.FileDownloadService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.zoho.creator.a.PageDisplayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/SlidingDraweActivityTheme" />
+        <activity
+            android:name="com.zoho.creator.a.ImageViewerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/SlidingDraweActivityTheme" />
+        <activity
+            android:name="com.zoho.creator.a.CustomerPortalSignUpActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:label="Signup"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.DashboardOptionsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorDashboardActivityTheme" />
+        <activity
+            android:name="com.zoho.creator.a.ImageAnnotateActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:screenOrientation="portrait"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.SummaryImagePreviewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale" />
+        <activity
+            android:name="com.zoho.creator.a.AudioRecordActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="com.zoho.creator.a.PhoneCallReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.zoho.creator.a.NetworkChangeMonitoringReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.zoho.creator.a.BulkSubmitActivity"
+            android:configChanges="orientation|screenSize|keyboard|fontScale"
+            android:label="BulkSubmitActivity"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.creator.a.CountrySpinnerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/ZohoCreatorNewTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.zoho.creator.a.PhoneNumberSpinnerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/ZohoCreatorNewTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.zoho.creator.a.SearchActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.FilterActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.SearchFilterHistoryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.NewSearchFilterHistoryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.SearchFilterHistoryDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.SearchHistoryDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity android:name="com.zoho.creator.a.CalendarGroupMonthListActivity" />
+        <activity
+            android:name="com.zoho.creator.a.TranslationUserChoiceActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale" />
+        <activity android:name="com.zoho.creator.a.RecordListSortActivity" />
+        <activity
+            android:name="com.zoho.creator.a.SearchConditionSelectActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.ThemeSettingsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.ThemeSelectionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity android:name="com.zoho.creator.a.HandleRedirectActivity" />
+        <activity
+            android:name="com.zoho.creator.a.ReportSaveActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.zohocreatorsdk.sampleapp.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.zoho.creator.a.ChooseComponentForAppShortcutActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:label="Zoho Creator"
+            android:theme="@style/ZohoCreatorDashboardActivityTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.zoho.creator.a.GalleryAppMoreInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:label="Zoho Creator"
+            android:theme="@style/ZohoCreatorDashboardActivityTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.zoho.creator.a.KanbanViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/SlidingDraweActivityTheme"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.zoho.creator.a.ApplyCriteriaInReportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.ApprovalTasksActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale" />
+        <activity
+            android:name="com.zoho.creator.a.ShowLocationInMapActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.BaiduMapViewPlotAddress"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+
+        <service
+            android:name="com.zoho.creator.a.ZCreatorFirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.zoho.creator.a.ZCreatorFirebaseInstanceIDService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+
+        <activity
+            android:name="com.zoho.creator.a.ZCScannerActivity"
+            android:theme="@style/ZohoCreatorNewTheme" />
+
+        <receiver
+            android:name="com.zoho.creator.a.InstallReferrerBroadcastReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.zoho.creator.a.SettingsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorNewTheme" />
+        <activity
+            android:name="com.zoho.creator.a.SDKLoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:theme="@style/ZohoCreatorTheme" />
+        <activity
+            android:name="com.zoho.accounts.externalframework.WebViewActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.zoho.accounts.externalframework.ChromeTabActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.example.zohocreatorsdk.sampleapp" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.zohocreatorsdk.sampleapp.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!--
+             Receives GooglePlay execution requests and forwards them to the
+             appropriate internal service.
+        -->
+        <service
+            android:name="com.firebase.jobdispatcher.GooglePlayReceiver"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

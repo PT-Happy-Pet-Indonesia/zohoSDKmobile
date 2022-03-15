@@ -1,0 +1,502 @@
+[
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_supplies_grid_item.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\supplies_grid_item.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_canteen_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\canteen_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_submit_bg.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\submit_bg.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_chair.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\chair.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_back_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\back_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_backbuddy_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\backbuddy_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_complaints_large_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\complaints_large_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_nameboard_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\nameboard_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_footrest_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\footrest_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_placechange.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\placechange.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_keys_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\keys_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_done_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\done_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_whiteboard_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\whiteboard_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_supplies.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\activity_supplies.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_nameboard_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\nameboard_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_beanbag_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\beanbag_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_laptopstand.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\laptopstand.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_addcontact.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\activity_addcontact.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_beanbag.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\beanbag.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_backbuddy_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\backbuddy_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_done_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\done_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_location_bg.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\location_bg.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_order_now_bg.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\order_now_bg.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_keys.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\keys.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\raw_zcapp_info.properties.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\raw\\zcapp_info.properties"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_placechange_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\placechange_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_whiteboard.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\whiteboard.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_shuttle_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\shuttle_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_beanbag.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\beanbag.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_supplies_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\supplies_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_keys.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\keys.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_placechange.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\placechange.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_circle_outline.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\circle_outline.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_done_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\done_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_supplies_selected_item.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\supplies_selected_item.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_launcher.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\activity_launcher.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_complaints.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\activity_complaints.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_laptopstand.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\laptopstand.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_corner_top_card.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\rounded_corner_top_card.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_keys_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\keys_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_handle_redirect.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\activity_handle_redirect.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_supplies_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\supplies_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_location_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\location_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_chair_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\chair_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_beanbag.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\beanbag.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_chair_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\chair_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_food_item.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\food_item.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_right_arrow_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\right_arrow_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_complaints_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\complaints_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_nameboard.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\nameboard.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_canteen.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\activity_canteen.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_footrest.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\footrest.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_right_arrow_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\right_arrow_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_chair.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\chair.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_back_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\back_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_nameboard.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\nameboard.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_back_bg.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\back_bg.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_cupboard_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\cupboard_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_footrest.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\footrest.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_backbuddy.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\backbuddy.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_chair.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\chair.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_complaints_large_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\complaints_large_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_complaints_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\complaints_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_location_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\location_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_corner_top_card_formcolor.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\rounded_corner_top_card_formcolor.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_complaints_large_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\complaints_large_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_laptopstand_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\laptopstand_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_keys.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\keys.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_cupboard.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\cupboard.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_whiteboard_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\whiteboard_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_right_arrow_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\right_arrow_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_contact.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\activity_contact.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_happypet.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\logo_happypet.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_whiteboard_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\whiteboard_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_laptopstand_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\laptopstand_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_laptopstand_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\laptopstand_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_shuttle_large_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\shuttle_large_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_shuttle_large_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\shuttle_large_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_supplies_submit_result_bottom_sheet.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\supplies_submit_result_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_canteen_submit_bottom_sheet.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\canteen_submit_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_footrest.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\footrest.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sales.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\activity_sales.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_beanbag_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\beanbag_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_placechange_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\placechange_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_footrest_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\footrest_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_back_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\back_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_placechange_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\placechange_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_complaints_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\complaints_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_chair_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\chair_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_cupboard_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\cupboard_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_canteen_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\canteen_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_report_task.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\report_task.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_shuttle_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\shuttle_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_corner_card_selectable.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\rounded_corner_card_selectable.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_shuttle_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\shuttle_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_corner_circle_outline.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\rounded_corner_circle_outline.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_keys_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\keys_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_whiteboard.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\whiteboard.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_shuttle.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\activity_shuttle.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_cupboard.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\cupboard.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_location_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\location_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_laptopstand.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\laptopstand.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_beanbag_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\beanbag_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_supplies_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\supplies_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_backbuddy.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\backbuddy.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_supplies_submit_bottom_sheet.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\supplies_submit_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_shuttle_large_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\shuttle_large_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_cupboard_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\cupboard_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_backbuddy_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\backbuddy_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_nameboard_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\nameboard_selected.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_cupboard.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\cupboard.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_canteen_icon.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\canteen_icon.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_corner_outline.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\rounded_corner_outline.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_whiteboard.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\whiteboard.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_backbuddy.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\backbuddy.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_menu.xml.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_nameboard.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xhdpi\\nameboard.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_placechange.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable-xxhdpi\\placechange.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\build\\intermediates\\merged_res\\debug\\drawable_footrest_selected.png.flat",
+        "source": "C:\\ZohoCreatorAndroidSDKDemo\\Utility\\app\\src\\main\\res\\drawable\\footrest_selected.png"
+    }
+]
